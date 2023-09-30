@@ -360,7 +360,7 @@
 0.0.0.0 store-playstation.ru
 :: store-playstation.ru
 0.0.0.0 crazygameis.com
-::crazygameis.com
+:: crazygameis.com
 0.0.0.0bitwariden.com
 :: bitwariden.com
 
@@ -545,8 +545,8 @@
 :: whyalways-me.xyz
 0.0.0.0 thefall.live
 :: thefall.live
-0.0.0.0 ymnpoavmvk.iť
-:: ymnpoavmvk.iť
+0.0.0.0 ymnpoavmvk.it
+:: ymnpoavmvk.it
 0.0.0.0 lailsolutionamarket.org
 :: lailsolutionamarket.org
 0.0.0.0 reellifehealthta.org
