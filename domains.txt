@@ -603,6 +603,16 @@
 :: stats.news.sellsy-email-service-1.com
 0.0.0.0 russiawomenonline.com
 :: russiawomenonline.com
+0.0.0.0 my.steganos.com
+:: my.steganos.com
+0.0.0.0 t.a.email.hbr.org
+:: t.a.email.hbr.org
+0.0.0.0 diycrafters.click
+:: diycrafters.click
+0.0.0.0 easilett.com
+:: easilett.com
+0.0.0.0 euro-coupons.de
+:: euro-coupons.de
 
 # Shady Site
 0.0.0.0 bluemail.me
