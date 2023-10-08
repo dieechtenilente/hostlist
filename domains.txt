@@ -1,656 +1,374 @@
 # Windows 10 Telemetry
-0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
-:: geo.settings-win.data.microsoft.com.akadns.net
-0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
-:: db5-eap.settings-win.data.microsoft.com.akadns.net
-0.0.0.0 settings-win.data.microsoft.com
-:: settings-win.data.microsoft.com
-0.0.0.0 db5.settings-win.data.microsoft.com.akadns.net
-:: db5.settings-win.data.microsoft.com.akadns.net
-0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
-:: asimov-win.settings.data.microsoft.com.akadns.net
-0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
-:: db5.vortex.data.microsoft.com.akadns.net
-0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
-:: v10-win.vortex.data.microsoft.com.akadns.net
-0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
-:: geo.vortex.data.microsoft.com.akadns.net
-0.0.0.0 v10.vortex-win.data.microsoft.com
-:: v10.vortex-win.data.microsoft.com
-0.0.0.0 v10.events.data.microsoft.com
-:: v10.events.data.microsoft.com
-0.0.0.0 v20.events.data.microsoft.com
-:: v20.events.data.microsoft.com
-0.0.0.0 us.vortex-win.data.microsoft.com
-:: us.vortex-win.data.microsoft.com
-0.0.0.0 eu.vortex-win.data.microsoft.com
-:: eu.vortex-win.data.microsoft.com
-0.0.0.0 vortex-win-sandbox.data.microsoft.com
-:: vortex-win-sandbox.data.microsoft.com
-0.0.0.0 alpha.telemetry.microsoft.com
-:: alpha.telemetry.microsoft.com
-0.0.0.0 oca.telemetry.microsoft.com
-:: oca.telemetry.microsoft.com
-0.0.0.0 ceuswatcab01.blob.core.windows.net
-:: ceuswatcab01.blob.core.windows.net
-0.0.0.0 ceuswatcab02.blob.core.windows.net
-:: ceuswatcab02.blob.core.windows.net
-0.0.0.0 eaus2watcab01.blob.core.windows.net
-:: eaus2watcab01.blob.core.windows.net
-0.0.0.0 eaus2watcab02.blob.core.windows.net
-:: eaus2watcab02.blob.core.windows.net
-0.0.0.0 weus2watcab01.blob.core.windows.net
-:: weus2watcab01.blob.core.windows.net
-0.0.0.0 weus2watcab02.blob.core.windows.net
-:: weus2watcab02.blob.core.windows.net
-0.0.0.0 au-v10.events.data.microsoft.com
-:: au-v10.events.data.microsoft.com
-0.0.0.0 au-v20.events.data.microsoft.com
-:: au-v20.events.data.microsoft.com
-0.0.0.0 au.vortex-win.data.microsoft.com
-:: au.vortex-win.data.microsoft.com
-0.0.0.0 de-v20.events.data.microsoft.com
-:: de-v20.events.data.microsoft.com
-0.0.0.0 de.vortex-win.data.microsoft.com
-:: de.vortex-win.data.microsoft.com
-0.0.0.0 eu-v10.events.data.microsoft.com
-:: eu-v10.events.data.microsoft.com
-0.0.0.0 eu-v20.events.data.microsoft.com
-:: eu-v20.events.data.microsoft.com
-0.0.0.0 events-sandbox.data.microsoft.com
-:: events-sandbox.data.microsoft.com
-0.0.0.0 jp-v10.events.data.microsoft.com
-:: jp-v10.events.data.microsoft.com
-0.0.0.0 jp-v20.events.data.microsoft.com
-:: jp-v20.events.data.microsoft.com
-0.0.0.0 telecommand.telemetry.microsoft.com
-:: telecommand.telemetry.microsoft.com
-0.0.0.0 uk-v20.events.data.microsoft.com
-:: uk-v20.events.data.microsoft.com
-0.0.0.0 uk.vortex-win.data.microsoft.com
-:: uk.vortex-win.data.microsoft.com
-0.0.0.0 us-v10.events.data.microsoft.com
-:: us-v10.events.data.microsoft.com
-0.0.0.0 us-v20.events.data.microsoft.com
-:: us-v20.events.data.microsoft.com
-0.0.0.0 us4-v20.events.data.microsoft.com
-:: us4-v20.events.data.microsoft.com
-0.0.0.0 us5-v20.events.data.microsoft.com
-:: us5-v20.events.data.microsoft.com
-0.0.0.0 v20.vortex-win.data.microsoft.com
-:: v20.vortex-win.data.microsoft.com
-0.0.0.0 vortex-win.data.microsoft.com
-:: vortex-win.data.microsoft.com
+geo.settings-win.data.microsoft.com.akadns.net
+db5-eap.settings-win.data.microsoft.com.akadns.net
+settings-win.data.microsoft.com
+db5.settings-win.data.microsoft.com.akadns.net
+asimov-win.settings.data.microsoft.com.akadns.net
+db5.vortex.data.microsoft.com.akadns.net
+v10-win.vortex.data.microsoft.com.akadns.net
+geo.vortex.data.microsoft.com.akadns.net
+v10.vortex-win.data.microsoft.com
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+us.vortex-win.data.microsoft.com
+eu.vortex-win.data.microsoft.com
+vortex-win-sandbox.data.microsoft.com
+alpha.telemetry.microsoft.com
+oca.telemetry.microsoft.com
+ceuswatcab01.blob.core.windows.net
+ceuswatcab02.blob.core.windows.net
+eaus2watcab01.blob.core.windows.net
+eaus2watcab02.blob.core.windows.net
+weus2watcab01.blob.core.windows.net
+weus2watcab02.blob.core.windows.net
+au-v10.events.data.microsoft.com
+au-v20.events.data.microsoft.com
+au.vortex-win.data.microsoft.com
+de-v20.events.data.microsoft.com
+de.vortex-win.data.microsoft.com
+eu-v10.events.data.microsoft.com
+eu-v20.events.data.microsoft.com
+events-sandbox.data.microsoft.com
+jp-v10.events.data.microsoft.com
+jp-v20.events.data.microsoft.com
+telecommand.telemetry.microsoft.com
+uk-v20.events.data.microsoft.com
+uk.vortex-win.data.microsoft.com
+us-v10.events.data.microsoft.com
+us-v20.events.data.microsoft.com
+us4-v20.events.data.microsoft.com
+us5-v20.events.data.microsoft.com
+v20.vortex-win.data.microsoft.com
+vortex-win.data.microsoft.com
 
 # Waze
-0.0.0.0 adsassets.waze.com
-:: adsassets.waze.com
+adsassets.waze.com
 
 # Twitch
-0.0.0.0 api.mixpanel.com
-0.0.0.0 spade.twitch.com
-0.0.0.0 pubads.g.doubleclick.net
-0.0.0.0 sb.scorecardresearch.com
-:: api.mixpanel.com
-:: spade.twitch.com
-:: pubads.g.doubleclick.net
-:: sb.scorecardresearch.com
+api.mixpanel.com
+spade.twitch.com
+pubads.g.doubleclick.net
+sb.scorecardresearch.com
 
 # Pandora
-0.0.0.0 ad.pandora.tv
-0.0.0.0 ads.pandora.tv.net
-0.0.0.0 stats.pandora.com
-0.0.0.0 adserver.pandora.com
-:: ad.pandora.tv
-:: ads.pandora.tv.net
-:: stats.pandora.com
-:: adserver.pandora.com
+ad.pandora.tv
+ads.pandora.tv.net
+stats.pandora.com
+adserver.pandora.com
 
 # Various
-0.0.0.0 wsp.mgid.com
-:: wsp.mgid.com
+wsp.mgid.com
 
 # TED app
-0.0.0.0 s0.2mdn.net
-:: s0.2mdn.net
+s0.2mdn.net
 
 # Alexa Voice Assistant
-0.0.0.0 vsp-alexa-eu.amazon.com
-:: vsp-alexa-eu.amazon.com
+vsp-alexa-eu.amazon.com
 
 # Ads and tracking on Xiaomi devices
-0.0.0.0 api.ad.xiaomi.com
-0.0.0.0 api.admob.xiaomi.com
-0.0.0.0 api.d.xiaomi.com
-0.0.0.0 a.stat.xiaomi.com
-0.0.0.0 tracking.miui.com
-0.0.0.0 cdn.ad.xiaomi.com
-0.0.0.0 data.mistat.xiaomi.com
-0.0.0.0 e.ad.xiaomi.com
-0.0.0.0 globalapi.ad.xiaomi.com
-0.0.0.0 new.api.ad.xiaomi.com
-0.0.0.0 sdkconfig.ad.xiaomi.com
-0.0.0.0 ssp.ad.xiaomi.com
-0.0.0.0 test.ad.xiaomi.com
-0.0.0.0 test.e.ad.xiaomi.com
-0.0.0.0 test.new.api.ad.xiaomi.com
-0.0.0.0 cc.sys.intl.xiaomi.com
-0.0.0.0 cc.sys.miui.com
-0.0.0.0 ccc.sys.miui.com
-0.0.0.0 ccc.sys.intl.xiaomi.com
-0.0.0.0 data.mistat.intl.xiaomi.com
-0.0.0.0 adv.sec.miui.com
-0.0.0.0 geofence.sys.miui.com
-0.0.0.0 abtest.mistat.xiaomi.com
-0.0.0.0 logupdate.avlyun.sec.miui.com
-0.0.0.0 mazu.sec.miui.com
-0.0.0.0 feedback.miui.com
-0.0.0.0 data.sec.miui.com
-0.0.0.0 data.mistat.intl.xiaomi.com
-:: api.ad.xiaomi.com
-:: api.admob.xiaomi.com
-:: api.d.xiaomi.com
-:: a.stat.xiaomi.com
-:: tracking.miui.com
-:: cdn.ad.xiaomi.com
-:: data.mistat.xiaomi.com
-:: e.ad.xiaomi.com
-:: globalapi.ad.xiaomi.com
-:: new.api.ad.xiaomi.com
-:: sdkconfig.ad.xiaomi.com
-:: ssp.ad.xiaomi.com
-:: test.ad.xiaomi.com
-:: test.e.ad.xiaomi.com
-:: test.new.api.ad.xiaomi.com
-:: cc.sys.intl.xiaomi.com
-:: cc.sys.miui.com
-:: ccc.sys.miui.com
-:: ccc.sys.intl.xiaomi.com
-:: data.mistat.intl.xiaomi.com
-:: adv.sec.miui.com
-:: geofence.sys.miui.com
-:: abtest.mistat.xiaomi.com
-:: logupdate.avlyun.sec.miui.com
-:: mazu.sec.miui.com
-:: feedback.miui.com
-:: data.sec.miui.com
-:: data.mistat.intl.xiaomi.com
+api.ad.xiaomi.com
+api.admob.xiaomi.com
+api.d.xiaomi.com
+a.stat.xiaomi.com
+tracking.miui.com
+cdn.ad.xiaomi.com
+data.mistat.xiaomi.com
+e.ad.xiaomi.com
+globalapi.ad.xiaomi.com
+new.api.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+ssp.ad.xiaomi.com
+test.ad.xiaomi.com
+test.e.ad.xiaomi.com
+test.new.api.ad.xiaomi.com
+cc.sys.intl.xiaomi.com
+cc.sys.miui.com
+ccc.sys.miui.com
+ccc.sys.intl.xiaomi.com
+data.mistat.intl.xiaomi.com
+adv.sec.miui.com
+geofence.sys.miui.com
+abtest.mistat.xiaomi.com
+logupdate.avlyun.sec.miui.com
+mazu.sec.miui.com
+feedback.miui.com
+data.sec.miui.com
+data.mistat.intl.xiaomi.com
 
 # Roku
-0.0.0.0 tyler.logs.roku.com
-0.0.0.0 giga.logs.roku.com
-0.0.0.0 cooper.logs.roku.com
-:: tyler.logs.roku.com
-:: giga.logs.roku.com
-:: cooper.logs.roku.com
+tyler.logs.roku.com
+giga.logs.roku.com
+cooper.logs.roku.com
 
 # Sonos Metrics
-0.0.0.0 msmetrics.ws.sonos.com 
-:: msmetrics.ws.sonos.com 
+msmetrics.ws.sonos.com 
 
 # JavaScript based crypto currency mining
-0.0.0.0 coin-hive.com
-0.0.0.0 www.coin-hive.com
-:: coin-hive.com
-:: www.coin-hive.com
+coin-hive.com
+www.coin-hive.com
 
 # Ads on sueddeutsche.de
-0.0.0.0 cdn.m-pathy.com
-0.0.0.0 click-de.plista.com
-0.0.0.0 farm-de.plista.com
-0.0.0.0 static-de.plista.com
-0.0.0.0 www.plista.com
-0.0.0.0 plista.com
-0.0.0.0 click.plista.com
-:: cdn.m-pathy.com
-:: click-de.plista.com
-:: farm-de.plista.com
-:: static-de.plista.com
-:: www.plista.com
-:: plista.com
-:: click.plista.com
+cdn.m-pathy.com
+click-de.plista.com
+farm-de.plista.com
+static-de.plista.com
+www.plista.com
+plista.com
+click.plista.com
 
 # nVidia Telemetry
-0.0.0.0 telemetry.nvidia.com
-0.0.0.0 telemetry.gfe.nvidia.com
-0.0.0.0 events.gfe.nvidia.com
-:: telemetry.nvidia.com
-:: telemetry.gfe.nvidia.com
-:: events.gfe.nvidia.com
+telemetry.nvidia.com
+telemetry.gfe.nvidia.com
+events.gfe.nvidia.com
 
 # nVidia GeForce Experience Driver Updates
-0.0.0.0 gfwsl.geforce.com
-:: gfwsl.geforce.com
+gfwsl.geforce.com
 
 # nVidia Telemetry - GeForce Experience Game Optimierung
-0.0.0.0 gfe.nvidia.com
-0.0.0.0 gfe.geforce.com
-:: gfe.nvidia.com
-:: gfe.geforce.com
+gfe.nvidia.com
+gfe.geforce.com
 
 # Adobe Analytics
-0.0.0.0 omniture.com
-:: omniture.com
+omniture.com
 
 # Adobe Licensing
-0.0.0.0 licensing.adobe.com 
-:: licensing.adobe.com
+licensing.adobe.com 
 
 # Microsoft Office
-0.0.0.0 fp.measure.office.com
-:: fp.measure.office.com
+fp.measure.office.com
 
 # Google
-0.0.0.0 alt2-mtalk.google.com
-:: alt2-mtalk.google.com
+alt2-mtalk.google.com
 
 # Plex
-0.0.0.0 lastfm-z.plexapp.com
-:: lastfm-z.plexapp.com
+lastfm-z.plexapp.com
 
 # Apple Metrics
-0.0.0.0 metrics.icloud.com
-:: metrics.icloud.com
+metrics.icloud.com
 
 # Mindfactory Ads
-0.0.0.0 ads.mindfactory.de
-:: ads.mindfactory.de
+ads.mindfactory.de
 
 # Snapchat Ads and Analytics
-0.0.0.0 app-analytics-v2.snapchat.com
-:: app-analytics-v2.snapchat.com
-0.0.0.0 ads-interface.sc-cdn.net
-:: ads-interface.sc-cdn.net
+app-analytics-v2.snapchat.com
+ads-interface.sc-cdn.net
 
 # Ad provider
-0.0.0.0 ads2.web1tv.de
-:: ads2.web1tv.de
+ads2.web1tv.de
 
 # Amazon (Fire TV Stick) Analytics
-0.0.0.0 ags-ext.amazon.com
-:: ags-ext.amazon.com
-0.0.0.0 cdws.eu-west-1.amazonaws.com
-:: cdws.eu-west-1.amazonaws.com
-0.0.0.0 cognito-identity.us-east-1.amazonaws.com
-:: cognito-identity.us-east-1.amazonaws.com
-0.0.0.0 cortana-gateway.amazon.com
-:: cortana-gateway.amazon.com
-0.0.0.0 cz15y20kg2.execute-api.us-east-1.amazonaws.com
-:: cz15y20kg2.execute-api.us-east-1.amazonaws.com
-0.0.0.0 device-messaging-na.amazon.com
-:: device-messaging-na.amazon.com
-0.0.0.0 device-metrics-us.amazon.com
-:: device-metrics-us.amazon.com
-0.0.0.0 digprjsurvey.amazon.eu
-:: digprjsurvey.amazon.eu
-0.0.0.0 dp-discovery-na-ext.amazon.com
-:: dp-discovery-na-ext.amazon.com
-0.0.0.0 dp-gw-na.amazon.com
-:: dp-gw-na.amazon.com
-0.0.0.0 dp-rsm-prod.amazon.com
-:: dp-rsm-prod.amazon.com
-0.0.0.0 messaging-director-us-east-1.amazon.com
-:: messaging-director-us-east-1.amazon.com
-0.0.0.0 msh.amazon.com
-:: msh.amazon.com
-0.0.0.0 prod.amazoncrl.com
-:: prod.amazoncrl.com
-0.0.0.0 tap-client-stats.s3-eu-west-1.amazonaws.com
-:: tap-client-stats.s3-eu-west-1.amazonaws.com
-0.0.0.0 todo-ta-g7g.amazon.com
-:: todo-ta-g7g.amazon.com
-0.0.0.0 eu.api.amazonvideo.com
-:: eu.api.amazonvideo.com
-0.0.0.0 dcape-na.amazon.com
-:: dcape-na.amazon.com
-0.0.0.0 arcus-uswest.amazon.com
-:: arcus-uswest.amazon.com
+ags-ext.amazon.com
+cdws.eu-west-1.amazonaws.com
+cognito-identity.us-east-1.amazonaws.com
+cortana-gateway.amazon.com
+cz15y20kg2.execute-api.us-east-1.amazonaws.com
+device-messaging-na.amazon.com
+device-metrics-us.amazon.com
+digprjsurvey.amazon.eu
+dp-discovery-na-ext.amazon.com
+dp-gw-na.amazon.com
+dp-rsm-prod.amazon.com
+messaging-director-us-east-1.amazon.com
+msh.amazon.com
+prod.amazoncrl.com
+tap-client-stats.s3-eu-west-1.amazonaws.com
+todo-ta-g7g.amazon.com
+eu.api.amazonvideo.com
+dcape-na.amazon.com
+arcus-uswest.amazon.com
 
 # Opera Speed dial and stuff
-0.0.0.0 speeddials.opera.com
-:: speeddials.opera.com
-0.0.0.0 weather.opera-api.com
-:: weather.opera-api.com
-0.0.0.0 sitecheck.opera.com
-:: sitecheck.opera.com
+speeddials.opera.com
+weather.opera-api.com
+sitecheck.opera.com
 
 # WD My Cloud
-0.0.0.0 staging.mycloud.com
-:: staging.mycloud.com
+staging.mycloud.com
 
 # Facebook Ads and Analytic Stuff
-0.0.0.0 graph.facebook.com
-:: graph.facebook.com
-0.0.0.0 scontent-ber1-1.xx.fbcdn.net
-:: scontent-ber1-1.xx.fbcdn.net
-0.0.0.0 external-ber1-1.xx.fbcdn.net
-:: external-ber1-1.xx.fbcdn.net
+graph.facebook.com
+scontent-ber1-1.xx.fbcdn.net
+external-ber1-1.xx.fbcdn.net
 
 # Android Jodel App Analytics
-0.0.0.0 analytics.jodelapis.com
-:: analytics.jodelapis.com
+analytics.jodelapis.com
 
 # WhatsApp Analytics (no impact noticable)
-0.0.0.0 g.whatsapp.net
-:: g.whatsapp.net
+g.whatsapp.net
 
 # Scam and Typosquatting
-0.0.0.0 audacity.de
-:: audacity.de
-0.0.0.0 playstation-sony.eu
-:: playstation-sony.eu
-0.0.0.0 playstation-sony.com
-:: playstation-sony.com
-0.0.0.0 playstation-sony.ru
-:: playstation-sony.ru
-0.0.0.0 playstation5-sony.ru
-:: playstation5-sony.ru
-0.0.0.0 promo-citilink.com
-:: promo-citilink.com
-0.0.0.0 ps5-game.ru
-:: ps5-game.ru
-0.0.0.0 ps5-sony.ru
-:: ps5-sony.ru
-0.0.0.0 psn-playstation.ru
-:: psn-playstation.ru
-0.0.0.0 sony-center.org
-:: sony-center.org
-0.0.0.0 store-playstation.eu
-:: store-playstation.eu
-0.0.0.0 store-playstation.ru
-:: store-playstation.ru
-0.0.0.0 crazygameis.com
-:: crazygameis.com
+audacity.de
+playstation-sony.eu
+playstation-sony.com
+playstation-sony.ru
+playstation5-sony.ru
+promo-citilink.com
+ps5-game.ru
+ps5-sony.ru
+psn-playstation.ru
+sony-center.org
+store-playstation.eu
+store-playstation.ru
+crazygameis.com
 0.0.0.0bitwariden.com
-:: bitwariden.com
-0.0.0.0 keepass.de
-:: keepass.de
+keepass.de
 
 # MS Teams Android App
-0.0.0.0 teams.events.data.microsoft.com
-:: teams.events.data.microsoft.com
+teams.events.data.microsoft.com
 
 # Onion Addresses resolved over classic DNS providers
-0.0.0.0 (\.|^)onion$
-:: (\.|^)onion$
-0.0.0.0 .onion
-:: .onion
+(\.|^)onion$
+.onion
 
 # SMS Spam
-0.0.0.0 me2.kr
-:: me2.kr
-0.0.0.0 dhl-bestatigung.com
-:: dhl-bestatigung.com
-0.0.0.0 wkv.com
-:: wkv.com
+me2.kr
+dhl-bestatigung.com
+wkv.com
 
 # Amazon Alexa
-0.0.0.0 traffic.alexa.com
-:: traffic.alexa.com
+traffic.alexa.com
 
 # More ads
-0.0.0.0 revenuecat.com
-:: revenuecat.com
-0.0.0.0 doubleclick.net
-:: doubleclick.net
+revenuecat.com
+doubleclick.net
 
 # Spotify unnecessary 
-0.0.0.0 heads-fa.spotify.com
-:: heads-fa.spotify.com
-0.0.0.0 spclient.wg.spotify.com
-:: spclient.wg.spotify.com
+heads-fa.spotify.com
+spclient.wg.spotify.com
 
 # Link shortener
-0.0.0.0 adf.ly
-:: adf.ly
-0.0.0.0 bom.so
-:: bom.so
-0.0.0.0 urltiny.ru
-:: urltiny.ru
-0.0.0.0 pke.to
-:: pke.to
-0.0.0.0 shoort.ink
-:: shoort.ink
+adf.ly
+bom.so
+urltiny.ru
+pke.to
+shoort.ink
 
 # Probabaly never used Google Domains
-0.0.0.0 google.sm
-:: google.sm
-0.0.0.0 google.com.pg
-:: google.com.pg
+google.sm
+google.com.pg
 
 # Shady stuff hosted on Huawei Cloud
-0.0.0.0 myhuaweicloud.com
-:: myhuaweicloud.com
+myhuaweicloud.com
 
 # Shady Site
-0.0.0.0 bluemail.me
-:: bluemail.me
+bluemail.me
 
 # Local Domains
-0.0.0.0 speedport.ip
-:: speedport.ip
-0.0.0.0 wpad.fritz.box
-:: wpad.fritz.box
+speedport.ip
+wpad.fritz.box
 
 # Unknown use
-0.0.0.0 api.revenuecat.com
-:: api.revenuecat.com
-0.0.0.0 di-uldvnmm2.leasewebultracdn.com
-:: di-uldvnmm2.leasewebultracdn.com
-0.0.0.0 bit.do
-:: bit.do
+api.revenuecat.com
+di-uldvnmm2.leasewebultracdn.com
+bit.do
 
 # Shady APKs
-0.0.0.0 liteapks.com
-:: liteapks.com
+liteapks.com
 
 # Microsoft Teams Scams
-0.0.0.0 msftprotection.onmicrosoft.com
-:: msftprotection.onmicrosoft.com
-0.0.0.0 identityVerification.onmicrosoft.com
-:: identityVerification.onmicrosoft.com
-0.0.0.0 accountsVerification.onmicrosoft.com
-:: accountsVerification.onmicrosoft.com
-0.0.0.0 azuresecuritycenter.onmicrosoft.com
-:: azuresecuritycenter.onmicrosoft.com
-0.0.0.0 teamsprotection.onmicrosoft.com
-:: teamsprotection.onmicrosoft.com
+msftprotection.onmicrosoft.com
+identityVerification.onmicrosoft.com
+accountsVerification.onmicrosoft.com
+azuresecuritycenter.onmicrosoft.com
+teamsprotection.onmicrosoft.com
 
 # Spam Mail
-0.0.0.0 spk-kontoeinzug-de.com
-:: spk-kontoeinzug-de.com
-0.0.0.0 sparka-kundeninstituten-de.com
-:: sparka-kundeninstituten-de.com
-0.0.0.0 sparka-kontoeinzuge-de.com
-:: sparka-kontoeinzuge-de.com
-0.0.0.0 arcoovinos.com.br
-:: arcoovinos.com.br
-0.0.0.0 spk-fingerprinting2022.com
-:: spk-fingerprinting2022.com
-0.0.0.0 spk-kunden-kredit2022.com
-:: spk-kunden-kredit2022.com
-0.0.0.0 spk-mitarbeiter-daten2022.com
-:: spk-mitarbeiter-daten2022.com
-0.0.0.0 spk-kundencenter2022.com
-:: spk-kundencenter2022.com
-0.0.0.0 spk-kunden-manager.com
-:: spk-kunden-manager.com
-0.0.0.0 spk-mitarbeiter-bereich2022.com
-:: spk-mitarbeiter-bereich2022.com
-0.0.0.0 spk-mitarbeiterportal.com
-:: spk-mitarbeiterportal.com
-0.0.0.0 deka-financialdepot.com
-:: deka-financialdepot.com
-0.0.0.0 deka-aktienfonds.com
-:: deka-aktienfonds.com
-0.0.0.0 deka-nachhaltig-anlegen.com
-:: deka-nachhaltig-anlegen.com
-0.0.0.0 deka-sofort-anlegen.com
-:: deka-sofort-anlegen.com
-0.0.0.0 deka-lowrisk-fonds.com
-:: deka-lowrisk-fonds.com
-0.0.0.0 spk-umstellung-update.com
-:: spk-umstellung-update.com
-0.0.0.0 sparka-kundentermin2022.com
-:: sparka-kundentermin2022.com
-0.0.0.0 kontribute.info
-:: kontribute.info
-0.0.0.0 farisleeinvestments.com
-:: farisleeinvestments.com
-0.0.0.0 bunburyaustralia.com
-:: bunburyaustralia.com
-0.0.0.0 sparka-sparen-leicht.com
-:: sparka-sparen-leicht.com
-0.0.0.0 blackboardconnectcorp.com
-:: blackboardconnectcorp.com
-0.0.0.0 struq.us
-:: struq.us
-0.0.0.0 recoveryassignment.org
-:: recoveryassignment.org
-0.0.0.0 staplesandstevens.com
-:: staplesandstevens.com1
-0.0.0.0 uni-t.com
-:: uni-t.com
-0.0.0.0 lexmd.com
-:: lexmd.com
-0.0.0.0 conservationva.com
-:: conservationva.com
-0.0.0.0 trainworks.com.au
-:: trainworks.com.au
-0.0.0.0 cashedgegadgets.net
-:: cashedgegadgets.net
-0.0.0.0 www.cashedgegadgets.net
-:: www.cashedgegadgets.net
-0.0.0.0 dfmbusiness.com
-:: dfmbusiness.com
-0.0.0.0 www.dfmbusiness.com
-:: www.dfmbusiness.com
-0.0.0.0 2ndgccpmf.org
-:: 2ndgccpmf.org
-0.0.0.0 www.2ndgccpmf.org
-:: ww.2ndgccpmf.org
-0.0.0.0 clickerlive.net
-:: clickerlive.net
-0.0.0.0 www.clickerlive.net
-:: www.clickerlive.net
-0.0.0.0 laminateapp.net
-:: laminateapp.net
-0.0.0.0 www.laminateapp.net
-:: www.laminateapp.net
-0.0.0.0 5tu.eu
-:: 5tu.eu
-0.0.0.0 sparka-bankauftrag.com
-:: sparka-bankauftrag.com
-0.0.0.0 sparka-kundenort.com
-:: sparka-kundenort.com
-0.0.0.0 wp20.ru
-:: wp20.ru
-0.0.0.0 promotionproximity.com
-:: promotionproximity.com
-0.0.0.0 myjewishangel.com
-:: myjewishangel.com
-0.0.0.0 news-x-paper-website.biletblog.com
-:: news-x-paper-website.biletblog.com
-0.0.0.0 haokangmedical.cn
-:: haokangmedical.cn
-0.0.0.0 discoveredu.eu.org
-:: discoveredu.eu.org
-0.0.0.0 rasketreff69.sexydatesnow.online
-:: rasketreff69.sexydatesnow.online
-0.0.0.0 evekabley.today
-:: evekabley.today
-0.0.0.0 hudsonpyke.shop
-:: hudsonpyke.shop
-0.0.0.0 rauchendedose.site
-:: rauchendedose.site
-0.0.0.0 marwanebr.com
-:: marwanebr.com
-0.0.0.0 leodarley.today
-:: leodarley.today
-0.0.0.0 sports-and-casino.s3.us-east-2.amazonaws.com
-:: sports-and-casino.s3.us-east-2.amazonaws.com
-0.0.0.0 whyalways-me.xyz
-:: whyalways-me.xyz
-0.0.0.0 thefall.live
-:: thefall.live
-0.0.0.0 ymnpoavmvk.it
-:: ymnpoavmvk.it
-0.0.0.0 lailsolutionamarket.org
-:: lailsolutionamarket.org
-0.0.0.0 reellifehealthta.org
-:: reellifehealthta.org
-0.0.0.0 lzuhfkgq.page.link
-:: lzuhfkgq.page.link
-0.0.0.0 ynrw7gyvjp2g2k8e.click.mailersend.net
-:: ynrw7gyvjp2g2k8e.click.mailersend.net
-0.0.0.0 monzox.com
-:: monzox.com
-0.0.0.0 ysc.boldlygoingnowhere.org
-:: ysc.boldlygoingnowhere.org
-0.0.0.0 keptible.botating.us.com
-:: keptible.botating.us.com
-0.0.0.0 dreamobserver.com
-:: dreamobserver.com
-0.0.0.0 milabrtru.com
-:: milabrtru.com
-0.0.0.0 fv4503.ezepo.net
-:: fv4503.ezepo.net
-0.0.0.0 swagbucks.com
-:: swagbucks.com
-0.0.0.0 freebitco.in
-:: freebitco.in
-0.0.0.0 honeygain.me
-:: honeygain.me
-0.0.0.0 tcsucip.com.cn
-:: tcsucip.com.cn
-0.0.0.0 ladbh6fg.com
-:: ladbh6fg.com
-0.0.0.0 clicktime.symantec.com
-:: clicktime.symantec.com
-0.0.0.0 builddozer.co.uk
-:: builddozer.co.uk
-0.0.0.0 fier.stabrino.info
-:: fier.stabrino.info
-0.0.0.0 wewescascsdcdcsdvasdvcaserg.page.link
-:: wewescascsdcdcsdvasdvcaserg.page.link
-0.0.0.0 lemon7exor.nondeprecatorilyexor.best
-:: lemon7exor.nondeprecatorilyexor.best
-0.0.0.0 pake.endofinternet.org
-:: pake.endofinternet.org
-0.0.0.0 srv200560.hoster-test.ru
-:: srv200560.hoster-test.ru
-0.0.0.0 handalass.us
-:: handalass.us
-0.0.0.0 topsvibe.com
-:: topsvibe.com
-0.0.0.0 the-phoenixbox.com
-:: the-phoenixbox.com
-0.0.0.0 all.freelance-ma.com
-:: all.freelance-ma.com
-0.0.0.0 stats.news.sellsy-email-service-1.com
-:: stats.news.sellsy-email-service-1.com
-0.0.0.0 russiawomenonline.com
-:: russiawomenonline.com
-0.0.0.0 my.steganos.com
-:: my.steganos.com
-0.0.0.0 t.a.email.hbr.org
-:: t.a.email.hbr.org
-0.0.0.0 diycrafters.click
-:: diycrafters.click
-0.0.0.0 easilett.com
-:: easilett.com
-0.0.0.0 euro-coupons.de
-:: euro-coupons.de
-0.0.0.0 chemouis.com 
-:: chemouis.com 
-0.0.0.0 datforked.co
-:: datforked.co
-0.0.0.0 cooperwieck.org.uk
-:: cooperwieck.org.uk
-0.0.0.0 batibig.com
-:: batibig.com
-0.0.0.0 sfndprpdev.in
-:: sfndprpdev.in
-0.0.0.0 ivanronald.com.br
-:: ivanronald.com.br
+spk-kontoeinzug-de.com
+sparka-kundeninstituten-de.com
+sparka-kontoeinzuge-de.com
+arcoovinos.com.br
+spk-fingerprinting2022.com
+spk-kunden-kredit2022.com
+spk-mitarbeiter-daten2022.com
+spk-kundencenter2022.com
+spk-kunden-manager.com
+spk-mitarbeiter-bereich2022.com
+spk-mitarbeiterportal.com
+deka-financialdepot.com
+deka-aktienfonds.com
+deka-nachhaltig-anlegen.com
+deka-sofort-anlegen.com
+deka-lowrisk-fonds.com
+spk-umstellung-update.com
+sparka-kundentermin2022.com
+kontribute.info
+farisleeinvestments.com
+bunburyaustralia.com
+sparka-sparen-leicht.com
+blackboardconnectcorp.com
+struq.us
+recoveryassignment.org
+staplesandstevens.com
+uni-t.com
+lexmd.com
+conservationva.com
+trainworks.com.au
+cashedgegadgets.net
+www.cashedgegadgets.net
+dfmbusiness.com
+www.dfmbusiness.com
+2ndgccpmf.org
+www.2ndgccpmf.org
+clickerlive.net
+www.clickerlive.net
+laminateapp.net
+www.laminateapp.net
+5tu.eu
+sparka-bankauftrag.com
+sparka-kundenort.com
+wp20.ru
+promotionproximity.com
+myjewishangel.com
+news-x-paper-website.biletblog.com
+haokangmedical.cn
+discoveredu.eu.org
+rasketreff69.sexydatesnow.online
+evekabley.today
+hudsonpyke.shop
+rauchendedose.site
+marwanebr.com
+leodarley.today
+sports-and-casino.s3.us-east-2.amazonaws.com
+whyalways-me.xyz
+thefall.live
+ymnpoavmvk.it
+lailsolutionamarket.org
+reellifehealthta.org
+lzuhfkgq.page.link
+ynrw7gyvjp2g2k8e.click.mailersend.net
+monzox.com
+ysc.boldlygoingnowhere.org
+keptible.botating.us.com
+dreamobserver.com
+milabrtru.com
+fv4503.ezepo.net
+swagbucks.com
+freebitco.in
+honeygain.me
+tcsucip.com.cn
+ladbh6fg.com
+clicktime.symantec.com
+builddozer.co.uk
+fier.stabrino.info
+wewescascsdcdcsdvasdvcaserg.page.link
+lemon7exor.nondeprecatorilyexor.best
+pake.endofinternet.org
+srv200560.hoster-test.ru
+handalass.us
+topsvibe.com
+the-phoenixbox.com
+all.freelance-ma.com
+stats.news.sellsy-email-service-1.com
+russiawomenonline.com
+my.steganos.com
+t.a.email.hbr.org
+diycrafters.click
+easilett.com
+euro-coupons.de
+chemouis.com 
+datforked.co
+cooperwieck.org.uk
+batibig.com
+sfndprpdev.in
+ivanronald.com.br
 
