@@ -363,6 +363,8 @@
 :: crazygameis.com
 0.0.0.0bitwariden.com
 :: bitwariden.com
+0.0.0.0 keepass.de
+:: keepass.de
 
 # MS Teams Android App
 0.0.0.0 teams.events.data.microsoft.com
@@ -401,8 +403,60 @@
 # Link shortener
 0.0.0.0 adf.ly
 :: adf.ly
+0.0.0.0 bom.so
+:: bom.so
+0.0.0.0 urltiny.ru
+:: urltiny.ru
+0.0.0.0 pke.to
+:: pke.to
+0.0.0.0 shoort.ink
+:: shoort.ink
 
-# German Bank Scam
+# Probabaly never used Google Domains
+0.0.0.0 google.sm
+:: google.sm
+0.0.0.0 google.com.pg
+:: google.com.pg
+
+# Shady stuff hosted on Huawei Cloud
+0.0.0.0 myhuaweicloud.com
+:: myhuaweicloud.com
+
+# Shady Site
+0.0.0.0 bluemail.me
+:: bluemail.me
+
+# Local Domains
+0.0.0.0 speedport.ip
+:: speedport.ip
+0.0.0.0 wpad.fritz.box
+:: wpad.fritz.box
+
+# Unknown use
+0.0.0.0 api.revenuecat.com
+:: api.revenuecat.com
+0.0.0.0 di-uldvnmm2.leasewebultracdn.com
+:: di-uldvnmm2.leasewebultracdn.com
+0.0.0.0 bit.do
+:: bit.do
+
+# Shady APKs
+0.0.0.0 liteapks.com
+:: liteapks.com
+
+# Microsoft Teams Scams
+0.0.0.0 msftprotection.onmicrosoft.com
+:: msftprotection.onmicrosoft.com
+0.0.0.0 identityVerification.onmicrosoft.com
+:: identityVerification.onmicrosoft.com
+0.0.0.0 accountsVerification.onmicrosoft.com
+:: accountsVerification.onmicrosoft.com
+0.0.0.0 azuresecuritycenter.onmicrosoft.com
+:: azuresecuritycenter.onmicrosoft.com
+0.0.0.0 teamsprotection.onmicrosoft.com
+:: teamsprotection.onmicrosoft.com
+
+# Spam Mail
 0.0.0.0 spk-kontoeinzug-de.com
 :: spk-kontoeinzug-de.com
 0.0.0.0 sparka-kundeninstituten-de.com
@@ -489,34 +543,8 @@
 :: sparka-bankauftrag.com
 0.0.0.0 sparka-kundenort.com
 :: sparka-kundenort.com
-
 0.0.0.0 wp20.ru
 :: wp20.ru
-
-0.0.0.0 keepass.de
-:: keepass.de
-
-# Probabaly never used Google Domains
-0.0.0.0 google.sm
-:: google.sm
-0.0.0.0 google.com.pg
-:: google.com.pg
-
-# Link shortner
-0.0.0.0 bom.so
-:: bom.so
-0.0.0.0 urltiny.ru
-:: urltiny.ru
-0.0.0.0 pke.to
-:: pke.to
-0.0.0.0 shoort.ink
-:: shoort.ink
-
-# Shady stuff hosted on Huawei Cloud
-0.0.0.0 myhuaweicloud.com
-:: myhuaweicloud.com
-
-# Spam Mail
 0.0.0.0 promotionproximity.com
 :: promotionproximity.com
 0.0.0.0 myjewishangel.com
@@ -613,55 +641,16 @@
 :: easilett.com
 0.0.0.0 euro-coupons.de
 :: euro-coupons.de
-
-# Shady Site
-0.0.0.0 bluemail.me
-:: bluemail.me
-
-# DHL Scam
-0.0.0.0 batibig.com
-:: batibig.com
-0.0.0.0 sfndprpdev.in
-:: sfndprpdev.in
-
-0.0.0.0 cooperwieck.org.uk
-:: cooperwieck.org.uk
-
-# N26 Scam
-0.0.0.0 ivanronald.com.br
-:: ivanronald.com.br
-
-# Local Domains
-0.0.0.0 speedport.ip
-:: speedport.ip
-0.0.0.0 wpad.fritz.box
-:: wpad.fritz.box
-
-0.0.0.0 api.revenuecat.com
-:: api.revenuecat.com
-0.0.0.0 di-uldvnmm2.leasewebultracdn.com
-:: di-uldvnmm2.leasewebultracdn.com
-0.0.0.0 bit.do
-:: bit.do
-
-# Shady APKs
-0.0.0.0 liteapks.com
-:: liteapks.com
-
-# Phishing
 0.0.0.0 chemouis.com 
 :: chemouis.com 
 0.0.0.0 datforked.co
 :: datforked.co
+0.0.0.0 cooperwieck.org.uk
+:: cooperwieck.org.uk
+0.0.0.0 batibig.com
+:: batibig.com
+0.0.0.0 sfndprpdev.in
+:: sfndprpdev.in
+0.0.0.0 ivanronald.com.br
+:: ivanronald.com.br
 
-# Microsoft Teams Scams
-0.0.0.0 msftprotection.onmicrosoft.com
-:: msftprotection.onmicrosoft.com
-0.0.0.0 identityVerification.onmicrosoft.com
-:: identityVerification.onmicrosoft.com
-0.0.0.0 accountsVerification.onmicrosoft.com
-:: accountsVerification.onmicrosoft.com
-0.0.0.0 azuresecuritycenter.onmicrosoft.com
-:: azuresecuritycenter.onmicrosoft.com
-0.0.0.0 teamsprotection.onmicrosoft.com
-:: teamsprotection.onmicrosoft.com
