@@ -246,6 +246,7 @@ cli.co
 zipurl.link
 urlz.fr
 shoort.ink
+t.co
 
 # Probabaly never used Google Domains
 google.sm
@@ -427,3 +428,20 @@ kirklands.com
 dmesp.ru
 we1af2.blogspot.se
 dsic.edu.my
+vb22.ru
+audiogold.co.uk
+metzx.blogspot.si
+modabelladonna.com
+practionard.com
+percentres.com
+germaticals.com
+provisigotha.jp.net
+andercloud.online
+browgrand.store
+dealsfinance.online
+healthandbeaty.pro
+offerstop4you.xyz
+outratline.store
+spellbojlidt.live
+matadyne.com
+amz.run
