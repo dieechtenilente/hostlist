@@ -277,6 +277,9 @@ accountsVerification.onmicrosoft.com
 azuresecuritycenter.onmicrosoft.com
 teamsprotection.onmicrosoft.com
 
+# Scam shops
+quordlepuzzles.com
+
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -458,3 +461,13 @@ ukauthority.com
 derideriredi.blogspot.com
 maildymon.dynv6.net
 sellsy-email-service-1.com
+webshoppnow.com
+marketingworldsales.com
+vestoval.site
+allnewsstore.com
+dmesp.ru
+letralematter.com
+ikawson.uk
+choicegd.com
+filalie.live
+sendibt2.com
