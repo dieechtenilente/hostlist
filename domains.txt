@@ -224,6 +224,7 @@ teams.events.data.microsoft.com
 me2.kr
 dhl-bestatigung.com
 wkv.com
+postreven.fun
 
 # Amazon Alexa
 traffic.alexa.com
@@ -471,3 +472,4 @@ ikawson.uk
 choicegd.com
 filalie.live
 sendibt2.com
+fullnf.com
