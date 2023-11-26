@@ -43,28 +43,22 @@ vortex-win.data.microsoft.com
 
 # Waze
 adsassets.waze.com
-
 # Twitch
 api.mixpanel.com
 spade.twitch.com
 pubads.g.doubleclick.net
 sb.scorecardresearch.com
-
 # Pandora
 ad.pandora.tv
 ads.pandora.tv.net
 stats.pandora.com
 adserver.pandora.com
-
 # Various
 wsp.mgid.com
-
 # TED app
 s0.2mdn.net
-
 # Alexa Voice Assistant
 vsp-alexa-eu.amazon.com
-
 # Ads and tracking on Xiaomi devices
 api.ad.xiaomi.com
 api.admob.xiaomi.com
@@ -93,20 +87,15 @@ logupdate.avlyun.sec.miui.com
 mazu.sec.miui.com
 feedback.miui.com
 data.sec.miui.com
-data.mistat.intl.xiaomi.com
-
 # Roku
 tyler.logs.roku.com
 giga.logs.roku.com
 cooper.logs.roku.com
-
 # Sonos Metrics
 msmetrics.ws.sonos.com 
-
 # JavaScript based crypto currency mining
 coin-hive.com
 www.coin-hive.com
-
 # Ads on sueddeutsche.de
 cdn.m-pathy.com
 click-de.plista.com
@@ -115,47 +104,34 @@ static-de.plista.com
 www.plista.com
 plista.com
 click.plista.com
-
 # nVidia Telemetry
 telemetry.nvidia.com
 telemetry.gfe.nvidia.com
 events.gfe.nvidia.com
-
 # nVidia GeForce Experience Driver Updates
 gfwsl.geforce.com
-
 # nVidia Telemetry - GeForce Experience Game Optimierung
 gfe.nvidia.com
 gfe.geforce.com
-
 # Adobe Analytics
 omniture.com
-
 # Adobe Licensing
 licensing.adobe.com 
-
 # Microsoft Office
 fp.measure.office.com
-
 # Google
 alt2-mtalk.google.com
-
 # Plex
 lastfm-z.plexapp.com
-
 # Apple Metrics
 metrics.icloud.com
-
 # Mindfactory Ads
 ads.mindfactory.de
-
 # Snapchat Ads and Analytics
 app-analytics-v2.snapchat.com
 ads-interface.sc-cdn.net
-
 # Ad provider
 ads2.web1tv.de
-
 # Amazon (Fire TV Stick) Analytics
 ags-ext.amazon.com
 cdws.eu-west-1.amazonaws.com
@@ -176,26 +152,20 @@ todo-ta-g7g.amazon.com
 eu.api.amazonvideo.com
 dcape-na.amazon.com
 arcus-uswest.amazon.com
-
 # Opera Speed dial and stuff
 speeddials.opera.com
 weather.opera-api.com
 sitecheck.opera.com
-
 # WD My Cloud
 staging.mycloud.com
-
 # Facebook Ads and Analytic Stuff
 graph.facebook.com
 scontent-ber1-1.xx.fbcdn.net
 external-ber1-1.xx.fbcdn.net
-
 # Android Jodel App Analytics
 analytics.jodelapis.com
-
 # WhatsApp Analytics (no impact noticable)
 g.whatsapp.net
-
 # Scam and Typosquatting
 audacity.de
 playstation-sony.eu
@@ -212,31 +182,24 @@ store-playstation.ru
 crazygameis.com
 0.0.0.0bitwariden.com
 keepass.de
-
 # MS Teams Android App
 teams.events.data.microsoft.com
-
 # Onion Addresses resolved over classic DNS providers
 (\.|^)onion$
 .onion
-
 # SMS Spam
 me2.kr
 dhl-bestatigung.com
 wkv.com
 postreven.fun
-
 # Amazon Alexa
 traffic.alexa.com
-
 # More ads
 revenuecat.com
 doubleclick.net
-
 # Spotify unnecessary 
 heads-fa.spotify.com
 spclient.wg.spotify.com
-
 # Link shortener
 adf.ly
 bom.so
@@ -246,41 +209,31 @@ shoort.ink
 cli.co
 zipurl.link
 urlz.fr
-shoort.ink
 t.co
-
 # Probabaly never used Google Domains
 google.sm
 google.com.pg
-
 # Shady stuff hosted on Huawei Cloud
 myhuaweicloud.com
-
 # Shady Site
 bluemail.me
-
 # Local Domains
 speedport.ip
 wpad.fritz.box
-
 # Unknown use
 api.revenuecat.com
 di-uldvnmm2.leasewebultracdn.com
 bit.do
-
 # Shady APKs
 liteapks.com
-
 # Microsoft Teams Scams
 msftprotection.onmicrosoft.com
 identityVerification.onmicrosoft.com
 accountsVerification.onmicrosoft.com
 azuresecuritycenter.onmicrosoft.com
 teamsprotection.onmicrosoft.com
-
 # Scam shops
 quordlepuzzles.com
-
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -380,7 +333,6 @@ cooperwieck.org.uk
 batibig.com
 sfndprpdev.in
 ivanronald.com.br
-handalass.us
 whirlwindcoms.onmicrosoft.com
 PdolVpsZ-deutschepost.de
 greetsld.com
@@ -392,7 +344,6 @@ lailmarketplace.com
 betterness.news
 tallhealthasolution.com
 chobatmarketA.org
-handalass.us
 romepage.digital
 touryabdel.cc
 cointiply.com
@@ -403,15 +354,12 @@ insidethelikey.online
 guitarmusicloud.com
 loanusaimprovements.store
 kjhkh.medialos.net
-ladbh6fg.com
 umiddleway.com
 pandajimmys.quest
-stats.news.sellsy-email-service-1.com
 bannistertime.com
 prosperitt.com
 mandrillapp.com
 Kaiyes.hologamyhamartias.ink
-handalass.us
 everydayhealth.pro
 healthandbeaty.pro
 hoursflash.site
@@ -422,10 +370,7 @@ takeyouroffer.site
 tranddrops4y.life
 whaitnording.online
 whatdoclear.site
-builddozer.co.uk
-iplogger.com
 maildymon.dynv6.net
-diycrafters.click
 artisticinspire.click
 mindfulmoments.click
 kirklands.com
@@ -443,14 +388,12 @@ provisigotha.jp.net
 andercloud.online
 browgrand.store
 dealsfinance.online
-healthandbeaty.pro
 offerstop4you.xyz
 outratline.store
 spellbojlidt.live
 matadyne.com
 amz.run
 zrorzs.us21.list-manage.com
-builddozer.co.uk
 geowinn.com
 sellsy-email-service-1.com
 missionoakdesigns.com
@@ -460,43 +403,28 @@ rose80.uk
 sendgrid.net
 ukauthority.com
 derideriredi.blogspot.com
-maildymon.dynv6.net
-sellsy-email-service-1.com
 webshoppnow.com
 marketingworldsales.com
 vestoval.site
 allnewsstore.com
-dmesp.ru
 letralematter.com
 ikawson.uk
 choicegd.com
-filalie.live
 sendibt2.com
 fullnf.com
 em-siteone.quest
-filalie.live
-euro-coupons.de
 natureadventures.click
 moviebuff.click
-artisticvisions.click
 gaminginsights.click
 anericha.info
-dmesp.ru
-diycrafters.click
-filalie.live
 url2151.isid.org
 url249.upaep.mx
-em-siteone.quest
 stabrino.info
 pixelmasters.info
-filalie.live
-natureadventures.click
 wanderlustdreams.click
-mindfulmoments.click
-agrushin.dmesp.ru
-webshoppnow.com
 redirectboss.com
-marketingworldsales.com
 clck.ru
 dodealsweb.com
 goshopnsave.com
+agrushin.dmses.ru
+fressnapf147852.blogspot.com
