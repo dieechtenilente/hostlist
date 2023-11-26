@@ -43,22 +43,28 @@ vortex-win.data.microsoft.com
 
 # Waze
 adsassets.waze.com
+
 # Twitch
 api.mixpanel.com
 spade.twitch.com
 pubads.g.doubleclick.net
 sb.scorecardresearch.com
+
 # Pandora
 ad.pandora.tv
 ads.pandora.tv.net
 stats.pandora.com
 adserver.pandora.com
+
 # Various
 wsp.mgid.com
+
 # TED app
 s0.2mdn.net
+
 # Alexa Voice Assistant
 vsp-alexa-eu.amazon.com
+
 # Ads and tracking on Xiaomi devices
 api.ad.xiaomi.com
 api.admob.xiaomi.com
@@ -87,15 +93,19 @@ logupdate.avlyun.sec.miui.com
 mazu.sec.miui.com
 feedback.miui.com
 data.sec.miui.com
+
 # Roku
 tyler.logs.roku.com
 giga.logs.roku.com
 cooper.logs.roku.com
+
 # Sonos Metrics
-msmetrics.ws.sonos.com 
+msmetrics.ws.sonos.com
+
 # JavaScript based crypto currency mining
 coin-hive.com
 www.coin-hive.com
+
 # Ads on sueddeutsche.de
 cdn.m-pathy.com
 click-de.plista.com
@@ -104,34 +114,47 @@ static-de.plista.com
 www.plista.com
 plista.com
 click.plista.com
+
 # nVidia Telemetry
 telemetry.nvidia.com
 telemetry.gfe.nvidia.com
 events.gfe.nvidia.com
+
 # nVidia GeForce Experience Driver Updates
 gfwsl.geforce.com
+
 # nVidia Telemetry - GeForce Experience Game Optimierung
 gfe.nvidia.com
 gfe.geforce.com
+
 # Adobe Analytics
 omniture.com
+
 # Adobe Licensing
 licensing.adobe.com 
+
 # Microsoft Office
 fp.measure.office.com
+
 # Google
 alt2-mtalk.google.com
+
 # Plex
 lastfm-z.plexapp.com
+
 # Apple Metrics
 metrics.icloud.com
+
 # Mindfactory Ads
 ads.mindfactory.de
+
 # Snapchat Ads and Analytics
 app-analytics-v2.snapchat.com
 ads-interface.sc-cdn.net
+
 # Ad provider
 ads2.web1tv.de
+
 # Amazon (Fire TV Stick) Analytics
 ags-ext.amazon.com
 cdws.eu-west-1.amazonaws.com
@@ -152,20 +175,26 @@ todo-ta-g7g.amazon.com
 eu.api.amazonvideo.com
 dcape-na.amazon.com
 arcus-uswest.amazon.com
+
 # Opera Speed dial and stuff
 speeddials.opera.com
 weather.opera-api.com
 sitecheck.opera.com
+
 # WD My Cloud
 staging.mycloud.com
+
 # Facebook Ads and Analytic Stuff
 graph.facebook.com
 scontent-ber1-1.xx.fbcdn.net
 external-ber1-1.xx.fbcdn.net
+
 # Android Jodel App Analytics
 analytics.jodelapis.com
+
 # WhatsApp Analytics (no impact noticable)
 g.whatsapp.net
+
 # Scam and Typosquatting
 audacity.de
 playstation-sony.eu
@@ -182,24 +211,31 @@ store-playstation.ru
 crazygameis.com
 0.0.0.0bitwariden.com
 keepass.de
+
 # MS Teams Android App
 teams.events.data.microsoft.com
+
 # Onion Addresses resolved over classic DNS providers
 (\.|^)onion$
 .onion
+
 # SMS Spam
 me2.kr
 dhl-bestatigung.com
 wkv.com
 postreven.fun
+
 # Amazon Alexa
 traffic.alexa.com
+
 # More ads
 revenuecat.com
 doubleclick.net
-# Spotify unnecessary 
+
+# Spotify unnecessary
 heads-fa.spotify.com
 spclient.wg.spotify.com
+
 # Link shortener
 adf.ly
 bom.so
@@ -210,30 +246,39 @@ cli.co
 zipurl.link
 urlz.fr
 t.co
+
 # Probabaly never used Google Domains
 google.sm
 google.com.pg
+
 # Shady stuff hosted on Huawei Cloud
 myhuaweicloud.com
+
 # Shady Site
 bluemail.me
+
 # Local Domains
 speedport.ip
 wpad.fritz.box
+
 # Unknown use
 api.revenuecat.com
 di-uldvnmm2.leasewebultracdn.com
 bit.do
+
 # Shady APKs
 liteapks.com
+
 # Microsoft Teams Scams
 msftprotection.onmicrosoft.com
 identityVerification.onmicrosoft.com
 accountsVerification.onmicrosoft.com
 azuresecuritycenter.onmicrosoft.com
 teamsprotection.onmicrosoft.com
+
 # Scam shops
 quordlepuzzles.com
+
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -327,7 +372,7 @@ t.a.email.hbr.org
 diycrafters.click
 easilett.com
 euro-coupons.de
-chemouis.com 
+chemouis.com
 datforked.co
 cooperwieck.org.uk
 batibig.com
