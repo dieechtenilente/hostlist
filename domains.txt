@@ -245,6 +245,7 @@ shoort.ink
 cli.co
 zipurl.link
 urlz.fr
+rb.gy
 t.co
 
 # Probabaly never used Google Domains
@@ -473,3 +474,16 @@ dodealsweb.com
 goshopnsave.com
 agrushin.dmses.ru
 fressnapf147852.blogspot.com
+stayfriends.de
+goshopnsave.com
+agrushin.dmses.ru
+filalie.live
+jooon-track.com
+nettoblackfridaty.blogspot.com
+group-global.blogspot.com
+stabrino.info
+bouramtanebb.space
+xr1tnepiqq.easilett.com
+digilander.libero.it
+webmail.werksmanslawfirm.com
+zupimages.net
