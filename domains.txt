@@ -574,8 +574,6 @@ emt-hcm21xgww.sendserver.email
 paket-supports-online.info
 links.quince.com
 u26466172.ct.sendgrid.net
-www.w3org
-schema.org
 quince-web-fonts.s3.us-west-2.amazonaws.com
 newlifestyles.in
 go.sparkpostmail.com
@@ -585,7 +583,6 @@ tomvwed.realcomicstudio.com
 mpkiqhb.productsonweb.com
 adrenalinainpista.it
 url3366.allcalls.io
-cdn.shopify.com
 qbzrkez.redirectboss.com
 xxtjwke.realcomicstudio.com
 lkqrimz.silvapets.cam
