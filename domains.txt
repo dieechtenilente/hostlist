@@ -261,6 +261,7 @@ bluemail.me
 # Local Domains
 speedport.ip
 wpad.fritz.box
+fritz.box
 
 # Unknown use
 api.revenuecat.com
