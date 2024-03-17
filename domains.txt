@@ -43,18 +43,70 @@ vortex-win.data.microsoft.com
 
 # Waze
 adsassets.waze.com
+ads-resources-legacy.waze.com
+ads-resources.waze.com
+adsassets-ipv6.waze.com
+advil.waze.com
+row-advil.waze.com
+sdk.waze.com
 
 # Twitch
 api.mixpanel.com
 spade.twitch.com
 pubads.g.doubleclick.net
 sb.scorecardresearch.com
+analytics.m7g.twitch.tv
+client-event-reporter-darklaunch.twitch.tv
+client-event-reporter.twitch.tv
+countess.twitch.tv
+deviceidshare.twitch.tv
+edge-beta.ads.twitch.tv
+edge.ads.twitch.tv
+fan.twitch.tv
+mp.twitch.tv
+origin.edge-beta.ads.twitch.tv
+origin.edge.ads.twitch.tv
+pubster.twitch.tv
+spade.sci.twitch.tv
+spade.twitch.com
+spade.twitch.tv
+twitch.us-east-1.prod.paets.advertising.amazon.dev
+twitch.us-west-2.prod.paets.advertising.amazon.dev
 
 # Pandora
 ad.pandora.tv
 ads.pandora.tv.net
 stats.pandora.com
 adserver.pandora.com
+adserver.gslb.pandora.com
+audio-sv5-t1-3.pandora.com
+cdnprism.pandora.tv
+email.soundslikeyou.pandora.com
+lg.tr.pandora.tv
+log.sv.pandora.tv
+metrics.pandora.com
+metrics.pandora.net
+pandora.adswizz.com
+pandora.compixel.everesttech.net
+pandora.d1.sc.omtrdc.net
+pandora.deliveryengine.adswizz.com
+pandora.evyy.net
+pandora.net.ssl.sc.omtrdc.net
+pandora.rokt.com
+pandora.ui.adswizz.com
+pandora.us-east-1.stinger-ad.bidr.io
+pandora.us-west-2.stinger-ad.bidr.io
+prism.pandora.tv
+px.pandora.com
+pxsg.pandora.com
+returns.americas.pandora.net
+smetrics.pandora.com
+smetrics.pandora.net
+soundcloud-pax.pandora.com
+stats-proto.pandora.com
+stats-v2-proto.pandora.com
+t.ac.pandora.com
+t.ac.pandora.com.cname.campaign.adobe.com
 
 # Various
 wsp.mgid.com
@@ -98,6 +150,40 @@ data.sec.miui.com
 tyler.logs.roku.com
 giga.logs.roku.com
 cooper.logs.roku.com
+ads-cf-us-east-1.delivery.roku.com
+ads-cf-us-west-2.delivery.roku.com
+ads-us-east-1.delivery.roku.com
+ads-us-west-2.delivery.roku.com
+ads.roku.com
+amoeba-plus.web.roku.com
+amoeba.web.roku.com
+analytics.roku.com
+api.ads.roku.com
+assets.sr.roku.com
+cdn.tcom.ads.roku.com
+cloudservices.roku.com
+customer-feedbacks.web.roku.com
+delta-staging.ads.roku.com
+delta.ads.roku.com
+i.ads.roku.com
+identity-dev.ads.roku.com
+identity-internal-dev.ads.roku.com
+identity-internal.ads.roku.com
+identity.ads.roku.com
+info.ads.roku.com
+item-tracking.dev.sr.roku.com
+login.ads.roku.com
+logs.roku.com
+osm-ads-cf.delivery.roku.com
+osm-ads.delivery.roku.com
+p.ads.roku.com
+pixel.web.roku.com
+preferences.ads.roku.com
+preferences.staging.ads.roku.com
+ravm-preprod.ads.roku.com
+samples.voice.cti.roku.com
+traces.sr.roku.com
+wwwimg.roku.com
 
 # Sonos Metrics
 msmetrics.ws.sonos.com
@@ -114,6 +200,11 @@ static-de.plista.com
 www.plista.com
 plista.com
 click.plista.com
+data-86d2aee9fa.sueddeutsche.de
+data-ac3d45df06.sueddeutsche.de
+fsm.sueddeutsche.de
+iqmetrics.sueddeutsche.de
+service-ens.sueddeutsche.de
 
 # nVidia Telemetry
 telemetry.nvidia.com
