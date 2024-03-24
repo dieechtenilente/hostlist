@@ -372,6 +372,13 @@ teamsprotection.onmicrosoft.com
 # Scam shops
 quordlepuzzles.com
 
+# Streaming
+ddownload.com
+hd-world.org
+megaddl.co
+octuni.com
+www2.aniflix.tv
+
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
