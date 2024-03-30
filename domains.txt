@@ -307,7 +307,7 @@ keepass.de
 teams.events.data.microsoft.com
 
 # Onion Addresses resolved over classic DNS providers
-(\.|^)onion$
+# Regex: (\.|^)onion$
 .onion
 
 # SMS Spam
@@ -764,3 +764,7 @@ goshopnsave.com
 mass.ws
 redirection-st.dlperformance.com
 host.bkauk.org.uk
+directfwd-2.com
+jumiausa.shop
+saturncarsatlanta.com
+prednisonecheap.com
