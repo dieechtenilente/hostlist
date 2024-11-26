@@ -348,6 +348,7 @@ myhuaweicloud.com
 
 # Shady Site
 bluemail.me
+treesize.net
 
 # Local Domains
 speedport.ip
