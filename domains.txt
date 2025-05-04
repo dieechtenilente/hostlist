@@ -116,6 +116,9 @@ s0.2mdn.net
 # Alexa Voice Assistant
 vsp-alexa-eu.amazon.com
 
+# GitHub Typo
+ghrc.io
+
 # Ads and tracking on Xiaomi devices
 api.ad.xiaomi.com
 api.admob.xiaomi.com
