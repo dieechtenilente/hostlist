@@ -811,3 +811,7 @@ gelosst.com
 bhagyashreeindustries.net
 havemy.email
 oracle-mail.com
+
+# Scam
+devplace.co
+ssc.devplace.co
