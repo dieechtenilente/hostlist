@@ -4,3 +4,6 @@
 ||.co^
 ||.click^
 ||.top^
+
+# Onion Addresses resolved over classic DNS providers
+||.onion^
