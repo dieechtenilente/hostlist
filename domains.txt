@@ -308,11 +308,6 @@ keepass.de
 # MS Teams Android App
 teams.events.data.microsoft.com
 
-# Onion Addresses resolved over classic DNS providers
-
-# Regex: (\.|^)onion$
-.onion
-
 # SMS Spam
 me2.kr
 dhl-bestatigung.com
@@ -375,6 +370,8 @@ teamsprotection.onmicrosoft.com
 
 # Scam shops
 quordlepuzzles.com
+techedubyte.com
+arldeemix.com
 
 # Streaming
 ddownload.com
@@ -817,8 +814,6 @@ paramatise.com
 dimentionful.com
 imap85.sprinckl.info
 sprinckl.info
-
-# Scam
 devplace.co
 ssc.devplace.co
 smsgratis.net
