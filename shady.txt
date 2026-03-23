@@ -19,3 +19,29 @@ treesize.net
 
 # Shady stuff hosted on Huawei Cloud
 myhuaweicloud.com
+
+# Adobe Licensing
+licensing.adobe.com 
+
+# Opera Speed dial and stuff
+speeddials.opera.com
+weather.opera-api.com
+sitecheck.opera.com
+
+# Link shortener
+adf.ly
+bom.so
+urltiny.ru
+pke.to
+shoort.ink
+cli.co
+zipurl.link
+urlz.fr
+rb.gy
+t.co
+
+# Local Domains that should not be resolved over the Internet
+speedport.ip
+fritz.box
+wpad.speedport.ip
+wpad.fritz.box
