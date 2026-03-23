@@ -3,6 +3,11 @@
 ||.co^
 ||.click^
 ||.top^
+||.sbs^
+||.id^
+||.gd^
+||.pro^
+||.ninja^
 
 # Onion Addresses resolved over classic DNS providers
 ||.onion^
