@@ -155,6 +155,8 @@ gfe.nvidia.com
 gfe.geforce.com
 telemetry.nvidia.com
 telemetry.gfe.nvidia.com
+events.gfe.nvidia.com
+gfwsl.geforce.com
 
 # Amazon (Fire TV Stick) Analytics
 ags-ext.amazon.com
@@ -179,6 +181,7 @@ arcus-uswest.amazon.com
 
 # Amazon Alexa
 traffic.alexa.com
+vsp-alexa-eu.amazon.com
 
 # MS Teams Android App
 teams.events.data.microsoft.com
@@ -199,3 +202,6 @@ scontent-ber1-1.xx.fbcdn.net
 external-ber1-1.xx.fbcdn.net
 # WD My Cloud
 staging.mycloud.com
+
+# TED app
+s0.2mdn.net
