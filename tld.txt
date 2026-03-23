@@ -1,6 +1,5 @@
-! This list contains shady top level domains (TLDs)
-! You can use this list in AdGuard Home
-
+# This list contains shady top level domains (TLDs)
+# You can use this list in AdGuard Home
 ||.co^
 ||.click^
 ||.top^
