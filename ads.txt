@@ -4,3 +4,24 @@ ads2.web1tv.de
 # More ads
 revenuecat.com
 doubleclick.net
+
+# Ads on sueddeutsche.de
+cdn.m-pathy.com
+click-de.plista.com
+farm-de.plista.com
+static-de.plista.com
+www.plista.com
+plista.com
+click.plista.com
+data-86d2aee9fa.sueddeutsche.de
+data-ac3d45df06.sueddeutsche.de
+fsm.sueddeutsche.de
+iqmetrics.sueddeutsche.de
+service-ens.sueddeutsche.de
+
+# Mindfactory Ads
+ads.mindfactory.de
+
+# Snapchat Ads and Analytics
+app-analytics-v2.snapchat.com
+ads-interface.sc-cdn.net
