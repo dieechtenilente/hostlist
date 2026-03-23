@@ -2,8 +2,12 @@
 PiHole Gravity Blocklist/Host list for blocking various unpleasant domains. Just add the following list to your PiHole/AdGuard:
 
 ```
-https://raw.githubusercontent.com/dieechtenilente/hostlist/main/domains.txt
+https://raw.githubusercontent.com/dieechtenilente/hostlist/main/all-domains.txt
 ```
+
+Or alternativly add specific txt-files if you like.
+
+[![Generate All Domains](https://github.com/dieechtenilente/hostlist/actions/workflows/renew-all-domains.yml/badge.svg)](https://github.com/dieechtenilente/hostlist/actions/workflows/renew-all-domains.yml)
 
 # Contribute
 Feel free to contribute bad domains via pull request!
