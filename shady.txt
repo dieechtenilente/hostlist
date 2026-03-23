@@ -1,0 +1,21 @@
+# Various
+wsp.mgid.com
+
+# Probabaly never used Google Domains
+google.sm
+google.com.pg
+
+# Shady APKs
+liteapks.com
+
+# Unknown use
+api.revenuecat.com
+di-uldvnmm2.leasewebultracdn.com
+bit.do
+
+# Shady Site
+bluemail.me
+treesize.net
+
+# Shady stuff hosted on Huawei Cloud
+myhuaweicloud.com
