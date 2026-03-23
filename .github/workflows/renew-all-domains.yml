@@ -1,0 +1,41 @@
+name: Generate All Domains
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-domain-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate all-domains.txt
+        run: |
+          find . -name "*.txt" -type f ! -name "all-domains.txt" -exec cat {} + \
+            | sed 's/\r//g' \
+            | grep -Eo '([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}' \
+            | sort -u > all-domains.txt
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet all-domains.txt; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add all-domains.txt
+          git commit -m "Update all-domains.txt"
+
+          git push
