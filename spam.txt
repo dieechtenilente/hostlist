@@ -513,3 +513,9 @@ elara.quest
 wfuv.mayantial.jp.pulsemarthq.com
 bemiet.com
 luettgen.attrackdown.fyi
+
+# SMS Spam
+me2.kr
+dhl-bestatigung.com
+wkv.com
+postreven.fun
