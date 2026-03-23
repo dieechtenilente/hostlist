@@ -1,0 +1,6 @@
+# Ad provider
+ads2.web1tv.de
+
+# More ads
+revenuecat.com
+doubleclick.net
