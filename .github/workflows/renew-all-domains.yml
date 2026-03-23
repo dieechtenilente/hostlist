@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate all-domains.txt
         run: |
-          find . -name "*.txt" -type f ! -name "all-domains.txt" -exec cat {} + \
+          find . -name "*.txt" -type f ! -name "all-domains.txt" ! -path "./all-domains.txt" -exec cat {} + \
             | sed 's/\r//g' > all-domains.txt
 
       - name: Check for changes
