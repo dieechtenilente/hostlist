@@ -1,5 +1,6 @@
 # GitHub Typo
 ghrc.io
+
 # Scam and Typosquatting
 audacity.de
 playstation-sony.eu
@@ -16,3 +17,10 @@ store-playstation.ru
 crazygameis.com
 bitwariden.com
 keepass.de
+
+# Microsoft Teams Scams
+msftprotection.onmicrosoft.com
+identityVerification.onmicrosoft.com
+accountsVerification.onmicrosoft.com
+azuresecuritycenter.onmicrosoft.com
+teamsprotection.onmicrosoft.com
