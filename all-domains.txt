@@ -1,3 +1,27 @@
+# Ad provider
+ads2.web1tv.de
+
+# More ads
+revenuecat.com
+doubleclick.net
+# Ads on sueddeutsche.de
+cdn.m-pathy.com
+click-de.plista.com
+farm-de.plista.com
+static-de.plista.com
+www.plista.com
+plista.com
+click.plista.com
+data-86d2aee9fa.sueddeutsche.de
+data-ac3d45df06.sueddeutsche.de
+fsm.sueddeutsche.de
+iqmetrics.sueddeutsche.de
+service-ens.sueddeutsche.de
+# Mindfactory Ads
+ads.mindfactory.de
+# Snapchat Ads and Analytics
+app-analytics-v2.snapchat.com
+ads-interface.sc-cdn.net
 # Windows 10 Telemetry
 geo.settings-win.data.microsoft.com.akadns.net
 db5-eap.settings-win.data.microsoft.com.akadns.net
@@ -40,6 +64,200 @@ us4-v20.events.data.microsoft.com
 us5-v20.events.data.microsoft.com
 v20.vortex-win.data.microsoft.com
 vortex-win.data.microsoft.com
+censys-scanner.com
+internet-census.org
+deepfield.net
+shadowserver.org
+stretchoid.com
+internet-measurement.com
+# Waze
+adsassets.waze.com
+ads-resources-legacy.waze.com
+ads-resources.waze.com
+adsassets-ipv6.waze.com
+advil.waze.com
+row-advil.waze.com
+sdk.waze.com
+# Twitch
+api.mixpanel.com
+spade.twitch.com
+pubads.g.doubleclick.net
+sb.scorecardresearch.com
+analytics.m7g.twitch.tv
+client-event-reporter-darklaunch.twitch.tv
+client-event-reporter.twitch.tv
+countess.twitch.tv
+deviceidshare.twitch.tv
+edge-beta.ads.twitch.tv
+edge.ads.twitch.tv
+fan.twitch.tv
+mp.twitch.tv
+origin.edge-beta.ads.twitch.tv
+origin.edge.ads.twitch.tv
+pubster.twitch.tv
+spade.sci.twitch.tv
+spade.twitch.tv
+twitch.us-east-1.prod.paets.advertising.amazon.dev
+twitch.us-west-2.prod.paets.advertising.amazon.dev
+# Pandora
+ad.pandora.tv
+ads.pandora.tv.net
+stats.pandora.com
+adserver.pandora.com
+adserver.gslb.pandora.com
+audio-sv5-t1-3.pandora.com
+cdnprism.pandora.tv
+email.soundslikeyou.pandora.com
+lg.tr.pandora.tv
+log.sv.pandora.tv
+metrics.pandora.com
+metrics.pandora.net
+pandora.adswizz.com
+pandora.compixel.everesttech.net
+pandora.d1.sc.omtrdc.net
+pandora.deliveryengine.adswizz.com
+pandora.evyy.net
+pandora.net.ssl.sc.omtrdc.net
+pandora.rokt.com
+pandora.ui.adswizz.com
+pandora.us-east-1.stinger-ad.bidr.io
+pandora.us-west-2.stinger-ad.bidr.io
+prism.pandora.tv
+px.pandora.com
+pxsg.pandora.com
+returns.americas.pandora.net
+smetrics.pandora.com
+smetrics.pandora.net
+soundcloud-pax.pandora.com
+stats-proto.pandora.com
+stats-v2-proto.pandora.com
+t.ac.pandora.com
+t.ac.pandora.com.cname.campaign.adobe.com
+# Ads and tracking on Xiaomi devices
+api.ad.xiaomi.com
+api.admob.xiaomi.com
+api.d.xiaomi.com
+a.stat.xiaomi.com
+tracking.miui.com
+cdn.ad.xiaomi.com
+data.mistat.xiaomi.com
+e.ad.xiaomi.com
+globalapi.ad.xiaomi.com
+new.api.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+ssp.ad.xiaomi.com
+test.ad.xiaomi.com
+test.e.ad.xiaomi.com
+test.new.api.ad.xiaomi.com
+cc.sys.intl.xiaomi.com
+cc.sys.miui.com
+ccc.sys.miui.com
+ccc.sys.intl.xiaomi.com
+data.mistat.intl.xiaomi.com
+adv.sec.miui.com
+geofence.sys.miui.com
+abtest.mistat.xiaomi.com
+logupdate.avlyun.sec.miui.com
+mazu.sec.miui.com
+feedback.miui.com
+data.sec.miui.com
+# Roku
+tyler.logs.roku.com
+giga.logs.roku.com
+cooper.logs.roku.com
+ads-cf-us-east-1.delivery.roku.com
+ads-cf-us-west-2.delivery.roku.com
+ads-us-east-1.delivery.roku.com
+ads-us-west-2.delivery.roku.com
+ads.roku.com
+amoeba-plus.web.roku.com
+amoeba.web.roku.com
+analytics.roku.com
+api.ads.roku.com
+assets.sr.roku.com
+cdn.tcom.ads.roku.com
+cloudservices.roku.com
+customer-feedbacks.web.roku.com
+delta-staging.ads.roku.com
+delta.ads.roku.com
+i.ads.roku.com
+identity-dev.ads.roku.com
+identity-internal-dev.ads.roku.com
+identity-internal.ads.roku.com
+identity.ads.roku.com
+info.ads.roku.com
+item-tracking.dev.sr.roku.com
+login.ads.roku.com
+logs.roku.com
+osm-ads-cf.delivery.roku.com
+osm-ads.delivery.roku.com
+p.ads.roku.com
+pixel.web.roku.com
+preferences.ads.roku.com
+preferences.staging.ads.roku.com
+ravm-preprod.ads.roku.com
+samples.voice.cti.roku.com
+traces.sr.roku.com
+wwwimg.roku.com
+# Sonos Metrics
+msmetrics.ws.sonos.com
+# Microsoft Office
+fp.measure.office.com
+# Google
+alt2-mtalk.google.com
+# Plex
+lastfm-z.plexapp.com
+# Apple Metrics
+metrics.icloud.com
+# Adobe Analytics
+omniture.com
+# nVidia Telemetry - GeForce Experience Game Optimierung
+gfe.nvidia.com
+gfe.geforce.com
+telemetry.nvidia.com
+telemetry.gfe.nvidia.com
+events.gfe.nvidia.com
+gfwsl.geforce.com
+# Amazon (Fire TV Stick) Analytics
+ags-ext.amazon.com
+cdws.eu-west-1.amazonaws.com
+cognito-identity.us-east-1.amazonaws.com
+cortana-gateway.amazon.com
+cz15y20kg2.execute-api.us-east-1.amazonaws.com
+device-messaging-na.amazon.com
+device-metrics-us.amazon.com
+digprjsurvey.amazon.eu
+dp-discovery-na-ext.amazon.com
+dp-gw-na.amazon.com
+dp-rsm-prod.amazon.com
+messaging-director-us-east-1.amazon.com
+msh.amazon.com
+prod.amazoncrl.com
+tap-client-stats.s3-eu-west-1.amazonaws.com
+todo-ta-g7g.amazon.com
+eu.api.amazonvideo.com
+dcape-na.amazon.com
+arcus-uswest.amazon.com
+# Amazon Alexa
+traffic.alexa.com
+vsp-alexa-eu.amazon.com
+# MS Teams Android App
+teams.events.data.microsoft.com
+# Android Jodel App Analytics
+analytics.jodelapis.com
+# WhatsApp Analytics (no impact noticable)
+g.whatsapp.net
+# Spotify unnecessary
+heads-fa.spotify.com
+spclient.wg.spotify.com
+# Facebook Ads and Analytic Stuff
+graph.facebook.com
+scontent-ber1-1.xx.fbcdn.net
+external-ber1-1.xx.fbcdn.net
+# WD My Cloud
+staging.mycloud.com
+# TED app
+s0.2mdn.net
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
@@ -50,33 +268,27 @@ vortex-win.data.microsoft.com
 ||.gd^
 ||.pro^
 ||.ninja^
-
 # Onion Addresses resolved over classic DNS providers
 ||.onion^
-# GitHub Typo
-ghrc.io
-# Scam and Typosquatting
-audacity.de
-playstation-sony.eu
-playstation-sony.com
-playstation-sony.ru
-playstation5-sony.ru
-promo-citilink.com
-ps5-game.ru
-ps5-sony.ru
-psn-playstation.ru
-sony-center.org
-store-playstation.eu
-store-playstation.ru
-crazygameis.com
-bitwariden.com
-keepass.de
-# Microsoft Teams Scams
-msftprotection.onmicrosoft.com
-identityVerification.onmicrosoft.com
-accountsVerification.onmicrosoft.com
-azuresecuritycenter.onmicrosoft.com
-teamsprotection.onmicrosoft.com
+# Malware
+fitgirlrepack.co
+fitgirl-repacks.cc
+fitgirl-repacks.website
+firgirl-repacks.website
+# Streaming
+ddownload.com
+hd-world.org
+megaddl.co
+octuni.com
+www2.aniflix.tv
+bigmovies10.site
+# Scam shops
+quordlepuzzles.com
+techedubyte.com
+arldeemix.com
+# JavaScript based crypto currency mining
+coin-hive.com
+www.coin-hive.com
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -604,217 +816,6 @@ me2.kr
 dhl-bestatigung.com
 wkv.com
 postreven.fun
-# Ad provider
-ads2.web1tv.de
-# More ads
-revenuecat.com
-doubleclick.net
-# Ads on sueddeutsche.de
-cdn.m-pathy.com
-click-de.plista.com
-farm-de.plista.com
-static-de.plista.com
-www.plista.com
-plista.com
-click.plista.com
-data-86d2aee9fa.sueddeutsche.de
-data-ac3d45df06.sueddeutsche.de
-fsm.sueddeutsche.de
-iqmetrics.sueddeutsche.de
-service-ens.sueddeutsche.de
-# Mindfactory Ads
-ads.mindfactory.de
-# Snapchat Ads and Analytics
-app-analytics-v2.snapchat.com
-ads-interface.sc-cdn.net
-# Waze
-adsassets.waze.com
-ads-resources-legacy.waze.com
-ads-resources.waze.com
-adsassets-ipv6.waze.com
-advil.waze.com
-row-advil.waze.com
-sdk.waze.com
-# Twitch
-api.mixpanel.com
-spade.twitch.com
-pubads.g.doubleclick.net
-sb.scorecardresearch.com
-analytics.m7g.twitch.tv
-client-event-reporter-darklaunch.twitch.tv
-client-event-reporter.twitch.tv
-countess.twitch.tv
-deviceidshare.twitch.tv
-edge-beta.ads.twitch.tv
-edge.ads.twitch.tv
-fan.twitch.tv
-mp.twitch.tv
-origin.edge-beta.ads.twitch.tv
-origin.edge.ads.twitch.tv
-pubster.twitch.tv
-spade.sci.twitch.tv
-spade.twitch.tv
-twitch.us-east-1.prod.paets.advertising.amazon.dev
-twitch.us-west-2.prod.paets.advertising.amazon.dev
-# Pandora
-ad.pandora.tv
-ads.pandora.tv.net
-stats.pandora.com
-adserver.pandora.com
-adserver.gslb.pandora.com
-audio-sv5-t1-3.pandora.com
-cdnprism.pandora.tv
-email.soundslikeyou.pandora.com
-lg.tr.pandora.tv
-log.sv.pandora.tv
-metrics.pandora.com
-metrics.pandora.net
-pandora.adswizz.com
-pandora.compixel.everesttech.net
-pandora.d1.sc.omtrdc.net
-pandora.deliveryengine.adswizz.com
-pandora.evyy.net
-pandora.net.ssl.sc.omtrdc.net
-pandora.rokt.com
-pandora.ui.adswizz.com
-pandora.us-east-1.stinger-ad.bidr.io
-pandora.us-west-2.stinger-ad.bidr.io
-prism.pandora.tv
-px.pandora.com
-pxsg.pandora.com
-returns.americas.pandora.net
-smetrics.pandora.com
-smetrics.pandora.net
-soundcloud-pax.pandora.com
-stats-proto.pandora.com
-stats-v2-proto.pandora.com
-t.ac.pandora.com
-t.ac.pandora.com.cname.campaign.adobe.com
-# Ads and tracking on Xiaomi devices
-api.ad.xiaomi.com
-api.admob.xiaomi.com
-api.d.xiaomi.com
-a.stat.xiaomi.com
-tracking.miui.com
-cdn.ad.xiaomi.com
-data.mistat.xiaomi.com
-e.ad.xiaomi.com
-globalapi.ad.xiaomi.com
-new.api.ad.xiaomi.com
-sdkconfig.ad.xiaomi.com
-ssp.ad.xiaomi.com
-test.ad.xiaomi.com
-test.e.ad.xiaomi.com
-test.new.api.ad.xiaomi.com
-cc.sys.intl.xiaomi.com
-cc.sys.miui.com
-ccc.sys.miui.com
-ccc.sys.intl.xiaomi.com
-data.mistat.intl.xiaomi.com
-adv.sec.miui.com
-geofence.sys.miui.com
-abtest.mistat.xiaomi.com
-logupdate.avlyun.sec.miui.com
-mazu.sec.miui.com
-feedback.miui.com
-data.sec.miui.com
-# Roku
-tyler.logs.roku.com
-giga.logs.roku.com
-cooper.logs.roku.com
-ads-cf-us-east-1.delivery.roku.com
-ads-cf-us-west-2.delivery.roku.com
-ads-us-east-1.delivery.roku.com
-ads-us-west-2.delivery.roku.com
-ads.roku.com
-amoeba-plus.web.roku.com
-amoeba.web.roku.com
-analytics.roku.com
-api.ads.roku.com
-assets.sr.roku.com
-cdn.tcom.ads.roku.com
-cloudservices.roku.com
-customer-feedbacks.web.roku.com
-delta-staging.ads.roku.com
-delta.ads.roku.com
-i.ads.roku.com
-identity-dev.ads.roku.com
-identity-internal-dev.ads.roku.com
-identity-internal.ads.roku.com
-identity.ads.roku.com
-info.ads.roku.com
-item-tracking.dev.sr.roku.com
-login.ads.roku.com
-logs.roku.com
-osm-ads-cf.delivery.roku.com
-osm-ads.delivery.roku.com
-p.ads.roku.com
-pixel.web.roku.com
-preferences.ads.roku.com
-preferences.staging.ads.roku.com
-ravm-preprod.ads.roku.com
-samples.voice.cti.roku.com
-traces.sr.roku.com
-wwwimg.roku.com
-# Sonos Metrics
-msmetrics.ws.sonos.com
-# Microsoft Office
-fp.measure.office.com
-# Google
-alt2-mtalk.google.com
-# Plex
-lastfm-z.plexapp.com
-# Apple Metrics
-metrics.icloud.com
-# Adobe Analytics
-omniture.com
-# nVidia Telemetry - GeForce Experience Game Optimierung
-gfe.nvidia.com
-gfe.geforce.com
-telemetry.nvidia.com
-telemetry.gfe.nvidia.com
-events.gfe.nvidia.com
-gfwsl.geforce.com
-# Amazon (Fire TV Stick) Analytics
-ags-ext.amazon.com
-cdws.eu-west-1.amazonaws.com
-cognito-identity.us-east-1.amazonaws.com
-cortana-gateway.amazon.com
-cz15y20kg2.execute-api.us-east-1.amazonaws.com
-device-messaging-na.amazon.com
-device-metrics-us.amazon.com
-digprjsurvey.amazon.eu
-dp-discovery-na-ext.amazon.com
-dp-gw-na.amazon.com
-dp-rsm-prod.amazon.com
-messaging-director-us-east-1.amazon.com
-msh.amazon.com
-prod.amazoncrl.com
-tap-client-stats.s3-eu-west-1.amazonaws.com
-todo-ta-g7g.amazon.com
-eu.api.amazonvideo.com
-dcape-na.amazon.com
-arcus-uswest.amazon.com
-# Amazon Alexa
-traffic.alexa.com
-vsp-alexa-eu.amazon.com
-# MS Teams Android App
-teams.events.data.microsoft.com
-# Android Jodel App Analytics
-analytics.jodelapis.com
-# WhatsApp Analytics (no impact noticable)
-g.whatsapp.net
-# Spotify unnecessary
-heads-fa.spotify.com
-spclient.wg.spotify.com
-# Facebook Ads and Analytic Stuff
-graph.facebook.com
-scontent-ber1-1.xx.fbcdn.net
-external-ber1-1.xx.fbcdn.net
-# WD My Cloud
-staging.mycloud.com
-# TED app
-s0.2mdn.net
 # Various
 wsp.mgid.com
 # Probabaly never used Google Domains
@@ -853,28 +854,27 @@ speedport.ip
 fritz.box
 wpad.speedport.ip
 wpad.fritz.box
-censys-scanner.com
-internet-census.org
-deepfield.net
-shadowserver.org
-stretchoid.com
-internet-measurement.com
-# Malware
-fitgirlrepack.co
-fitgirl-repacks.cc
-fitgirl-repacks.website
-firgirl-repacks.website
-# Streaming
-ddownload.com
-hd-world.org
-megaddl.co
-octuni.com
-www2.aniflix.tv
-bigmovies10.site
-# Scam shops
-quordlepuzzles.com
-techedubyte.com
-arldeemix.com
-# JavaScript based crypto currency mining
-coin-hive.com
-www.coin-hive.com
+# GitHub Typo
+ghrc.io
+# Scam and Typosquatting
+audacity.de
+playstation-sony.eu
+playstation-sony.com
+playstation-sony.ru
+playstation5-sony.ru
+promo-citilink.com
+ps5-game.ru
+ps5-sony.ru
+psn-playstation.ru
+sony-center.org
+store-playstation.eu
+store-playstation.ru
+crazygameis.com
+bitwariden.com
+keepass.de
+# Microsoft Teams Scams
+msftprotection.onmicrosoft.com
+identityVerification.onmicrosoft.com
+accountsVerification.onmicrosoft.com
+azuresecuritycenter.onmicrosoft.com
+teamsprotection.onmicrosoft.com
