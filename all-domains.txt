@@ -321,15 +321,12 @@ lexmd.com
 conservationva.com
 trainworks.com.au
 cashedgegadgets.net
-www.cashedgegadgets.net
 dfmbusiness.com
 www.dfmbusiness.com
 2ndgccpmf.org
 www.2ndgccpmf.org
 clickerlive.net
-www.clickerlive.net
 laminateapp.net
-www.laminateapp.net
 5tu.eu
 sparka-bankauftrag.com
 sparka-kundenort.com
@@ -825,6 +822,13 @@ cordeirorff.com
 byunmedia.com
 i9process.com.br
 rff.auto-pijac.com
+Storagend.com
+utp.ac.pa
+blueproconsulting.com
+smartlocalhost.com
+theexchangedoc.com
+distruptmail.com
+tgwnet.com
 # SMS Spam
 me2.kr
 dhl-bestatigung.com
