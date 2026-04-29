@@ -24,3 +24,7 @@ identityVerification.onmicrosoft.com
 accountsVerification.onmicrosoft.com
 azuresecuritycenter.onmicrosoft.com
 teamsprotection.onmicrosoft.com
+
+Strato IDN-Homograph
+www.ѕtrаtо.dе
+ѕtrаtо.dе
