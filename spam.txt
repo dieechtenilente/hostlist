@@ -629,6 +629,31 @@ monitoring.bg
 video.audi.dk
 neodefense.exerglobal.com
 laosubenben.com
+rpcz.info
+czyted.now-dns.net
+meetando.com
+www.qizegypt.gov.eg
+www.ufmfc.com
+dev.sbphototours.com
+nova-staging.compathnion.com
+1000love.net
+navink.navitor.com
+photo0203.lovedub.net
+baldi-srl.it
+recipekorea.com
+auth.nettix.fi
+www.escrip.com
+xratedtv.com
+www.lgb2bshop.co.kr
+myavcs.com
+www.abclinuxu.cz
+www.shebeiq.com
+www.daruidiag.com
+apt-as.com
+curtina.in
+hrm.vnresource.net:4111
+member.mariomall.co.kr
+alpe-adria.com
 
 # SMS Spam
 me2.kr
