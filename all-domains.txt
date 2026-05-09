@@ -907,6 +907,19 @@ monitoring.bg
 video.audi.dk
 neodefense.exerglobal.com
 laosubenben.com
+czyted.now-dns.net
+www.ufmfc.com
+dev.sbphototours.com
+nova-staging.compathnion.com
+photo0203.lovedub.net
+auth.nettix.fi
+www.escrip.com
+www.abclinuxu.cz
+www.shebeiq.com
+apt-as.com
+hrm.vnresource.net:4111
+member.mariomall.co.kr
+alpe-adria.com
 # SMS Spam
 me2.kr
 dhl-bestatigung.com
