@@ -715,6 +715,10 @@ yun.smartlib.cn
 tv.getyarn.io
 sf.manmanbuy.com
 www.tollcard.pt
+app.5211game.com
+herzog.formanilla.shop
+mailzak.com
+leannon.tarduarl.net
 # SMS Spam
 me2.kr
 dhl-bestatigung.com
