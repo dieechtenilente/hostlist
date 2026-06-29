@@ -20,3 +20,5 @@ www.google.com
 www.google.de
 outlook.com
 storage.googleapis.com
+gist.github.com
+github.com
