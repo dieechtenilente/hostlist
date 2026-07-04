@@ -15,16 +15,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
       - name: Create credentials.py
         run: |
           cat > scripts/credentials.py << 'EOF'
           ${{ secrets.CREDENTIALS_PY }}
           EOF
 
-      - name: Run script
+      - name: Get new domains from spam folder
         run: |
           cd scripts
-          python3 junk-mail.py
+          python3 junk-mail.py >> ../spam.txt
+
+      - name: Remove duplicate and empty lines from spam.txt
+        run: |
+          awk 'NF && !seen[$0]++' spam.txt > spam.tmp
+          mv spam.tmp spam.txt
 
       - name: Generate all-domains.txt
         run: |
@@ -39,7 +49,7 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          if git diff --quiet all-domains.txt; then
+          if git diff --cached --quiet all-domains.txt; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
