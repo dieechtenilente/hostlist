@@ -22,3 +22,4 @@ outlook.com
 storage.googleapis.com
 gist.github.com
 github.com
+share.google

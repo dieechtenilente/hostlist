@@ -1,22 +1,18 @@
 import imaplib
 import email
-from email.header import decode_header
 from email.utils import parseaddr
-import re
 from urllib.parse import urlparse
+import re
 import credentials
 
 # Whitelisted domains
 with open("whitelist.txt", "r") as f:
     whitelist = {
-        line.strip()
+        line.strip().lower()
         for line in f
-            if line.strip() and not line.startswith("#")
+        if line.strip() and not line.startswith("#")
     }
 
-whitelist
-
-# Store unique domains
 domains = set()
 
 accounts = credentials.accounts
@@ -27,56 +23,71 @@ for account in accounts:
     imap_server = account.get("server")
 
     imap = imaplib.IMAP4_SSL(imap_server)
-    imap.login(username, password)
 
-    status, messages = imap.select(account.get("spam"))
-    messages = int(messages[0])
+    try:
+        imap.login(username, password)
 
-    for i in range(1, messages + 1):
-        res, msg_data = imap.fetch(str(i), "(RFC822)")
+        status, messages = imap.select(account.get("spam"))
+        messages = int(messages[0])
 
-        for response in msg_data:
-            if not isinstance(response, tuple):
-                continue
+        for i in range(1, messages + 1):
+            res, msg_data = imap.fetch(str(i), "(RFC822)")
 
-            raw_email = response[1]
+            for response in msg_data:
+                if not isinstance(response, tuple):
+                    continue
 
-            try:
-                msg = email.message_from_bytes(raw_email)
+                try:
+                    msg = email.message_from_bytes(response[1])
 
-                # -------------------------
-                # Extract sender domain
-                # -------------------------
-                from_header = msg.get("From", "")
-                sender_name, sender_email = parseaddr(from_header)
+                    # -------------------------
+                    # Extract sender domain
+                    # -------------------------
+                    _, sender_email = parseaddr(msg.get("From", ""))
 
-                if sender_email and "@" in sender_email:
-                    sender_domain = sender_email.split("@")[1].lower()
-                    domains.add(sender_domain)
+                    if sender_email and "@" in sender_email:
+                        domains.add(sender_email.split("@")[1].lower())
 
-                # -------------------------
-                # Extract href domains
-                # -------------------------
-                body = raw_email.decode("utf-8", errors="ignore")
+                    # -------------------------
+                    # Extract HTML links
+                    # -------------------------
+                    for part in msg.walk():
+                        if part.get_content_type() != "text/html":
+                            continue
 
-                matches = re.findall(
-                    r'<a\s+(?:[^>]*?\s+)?href="(?!mailto:)([^"]*)"',
-                    body
-                )
+                        payload = part.get_payload(decode=True)
+                        if not payload:
+                            continue
 
-                for match in matches:
-                    parsed = urlparse(match)
+                        charset = part.get_content_charset() or "utf-8"
+                        body = payload.decode(charset, errors="ignore")
 
-                    if parsed.scheme and parsed.netloc:
-                        domains.add(parsed.netloc.lower())
+                        matches = re.findall(
+                            r'<a\s+(?:[^>]*?\s+)?href="(?!mailto:)([^"]*)"',
+                            body,
+                            flags=re.IGNORECASE,
+                        )
 
-            except Exception as e:
-                print(f"Error processing email {i}: {e}")
+                        for match in matches:
+                            parsed = urlparse(match)
 
-    imap.logout()
+                            if parsed.hostname:
+                                domains.add(parsed.hostname.lower())
+
+                except Exception as e:
+                    print(f"Error processing email {i}: {e}")
+
+    except Exception as e:
+        print(f"Login failed for {username}: {e}")
+
+    finally:
+        try:
+            imap.logout()
+        except Exception:
+            pass
 
 # Remove whitelist
-domains = [d for d in domains if d not in whitelist]
+domains.difference_update(whitelist)
 
 # Print result
 for domain in sorted(domains):
