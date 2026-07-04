@@ -15,6 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Create credentials.py
+        run: |
+          cat > credentials.py << 'EOF'
+          ${{ secrets.CREDENTIALS_PY }}
+          EOF
+
+      - name: Run script
+        run: |
+          python3 scripts/junk-mails.py
+
       - name: Generate all-domains.txt
         run: |
           find . -name "*.txt" \
