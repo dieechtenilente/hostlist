@@ -23,7 +23,7 @@ jobs:
 
       - name: Run script
         run: |
-          python3 scripts/junk-mails.py
+          python3 scripts/junk-mail.py
 
       - name: Generate all-domains.txt
         run: |
