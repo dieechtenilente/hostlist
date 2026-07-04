@@ -33,8 +33,10 @@ jobs:
 
       - name: Get new domains from spam folder
         run: |
+          tail ../spam.txt
           cd scripts
           python3 junk-mail.py >> ../spam.txt
+          tail ../spam.txt
 
       - name: Remove duplicate and empty lines from spam.txt
         run: |
