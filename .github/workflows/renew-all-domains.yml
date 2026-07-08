@@ -2,7 +2,7 @@ name: Generate All Domains
 
 on:
   schedule:
-    - cron: "55 17 * * *"
+    - cron: "0 10,22 * * *"
   push:
     branches: [ "main" ]
   workflow_dispatch:
