@@ -971,7 +971,6 @@ asdafintlcc.com
 csgomail.cn
 newpp50blg-0hjkclyp.firebaseapp.com
 erinab.pl
-gmail.com
 # Waze
 adsassets.waze.com
 ads-resources-legacy.waze.com
