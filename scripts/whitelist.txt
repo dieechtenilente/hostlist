@@ -23,4 +23,12 @@ storage.googleapis.com
 gist.github.com
 github.com
 share.google
-gmail com
+gmail.com
+google.de
+googlemail.com
+live.de
+hotmail.de
+hotmail.com
+t-online.de
+yahoo.de
+yahoo.com
