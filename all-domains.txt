@@ -1161,6 +1161,7 @@ newpp50blg-0hjkclyp.firebaseapp.com
 erinab.pl
 umas.netexcom.site
 ilhb.netexcom.site
+altfins.biz
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
