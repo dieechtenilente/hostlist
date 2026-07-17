@@ -1162,6 +1162,7 @@ erinab.pl
 umas.netexcom.site
 ilhb.netexcom.site
 altfins.biz
+384.jp
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
