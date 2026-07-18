@@ -1164,6 +1164,9 @@ ilhb.netexcom.site
 altfins.biz
 384.jp
 freenet.de
+biosandiagnosticos.com.br
+deckingdecor.info
+educabinet.info
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
