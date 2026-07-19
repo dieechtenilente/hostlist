@@ -1167,6 +1167,7 @@ freenet.de
 biosandiagnosticos.com.br
 deckingdecor.info
 educabinet.info
+digivyapaar.com
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
