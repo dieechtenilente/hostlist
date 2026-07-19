@@ -1210,6 +1210,7 @@ tghgasionfas01.onmicrosoft.com
 tus4djobquest.onmicrosoft.com
 tus4dkesayanganstore.onmicrosoft.com
 xwcgameroasin01.onmicrosoft.com
+wyathservices.org
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
