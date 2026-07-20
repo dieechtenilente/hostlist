@@ -1214,6 +1214,15 @@ wyathservices.org
 azegoaldrafthq03.onmicrosoft.com
 gamespheree.pl
 opmgamigosoyn02.onmicrosoft.com
+crestviewmail.com
+gringoservices.co.uk
+ptuk.edu.ps
+students.ptuk.edu.ps
+twitter.com
+www.facebook.com
+www.ptuk.edu.ps
+www.youtube.com
+yuigamrtok03.onmicrosoft.com
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
