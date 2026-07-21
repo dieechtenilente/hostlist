@@ -1222,6 +1222,8 @@ www.ptuk.edu.ps
 yuigamrtok03.onmicrosoft.com
 dghgamerousin03.onmicrosoft.com
 ertgasionfas01.onmicrosoft.com
+atritelecom.com.br
+salistek.net
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
