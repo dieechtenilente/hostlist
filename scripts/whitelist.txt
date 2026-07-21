@@ -32,3 +32,6 @@ hotmail.com
 t-online.de
 yahoo.de
 yahoo.com
+twitter.com
+www.facebook.com
+www.youtube.com
