@@ -1228,6 +1228,7 @@ academiacimneiber.com
 climbing.architectenormannpiller.com
 ertgasionfas.onmicrosoft.com
 maluku-cerdas.id
+dongshengph.com
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
