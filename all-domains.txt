@@ -1231,6 +1231,7 @@ maluku-cerdas.id
 dongshengph.com
 opmlgridironpicksin02.onmicrosoft.com
 itsviktus.co.uk
+onlinemadrasa.org
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
