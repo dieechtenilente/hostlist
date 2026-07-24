@@ -1,3 +1,106 @@
+censys-scanner.com
+internet-census.org
+deepfield.net
+shadowserver.org
+stretchoid.com
+internet-measurement.com
+# Various
+wsp.mgid.com
+
+# Probabaly never used Google Domains
+google.sm
+google.com.pg
+# Shady APKs
+liteapks.com
+# Unknown use
+api.revenuecat.com
+di-uldvnmm2.leasewebultracdn.com
+bit.do
+# Shady Site
+bluemail.me
+treesize.net
+# Shady stuff hosted on Huawei Cloud
+myhuaweicloud.com
+# Adobe Licensing
+licensing.adobe.com 
+# Opera Speed dial and stuff
+speeddials.opera.com
+weather.opera-api.com
+sitecheck.opera.com
+# Link shortener
+adf.ly
+bom.so
+urltiny.ru
+pke.to
+shoort.ink
+cli.co
+zipurl.link
+urlz.fr
+rb.gy
+t.co
+# Local Domains that should not be resolved over the Internet
+speedport.ip
+fritz.box
+wpad.speedport.ip
+wpad.fritz.box
+# This list contains shady top level domains (TLDs)
+# You can use this list in AdGuard Home
+||.co^
+||.click^
+||.top^
+||.sbs^
+||.id^
+||.gd^
+||.pro^
+||.ninja^
+# Onion Addresses resolved over classic DNS providers
+||.onion^
+# GitHub Typo
+ghrc.io
+# Scam and Typosquatting
+audacity.de
+playstation-sony.eu
+playstation-sony.com
+playstation-sony.ru
+playstation5-sony.ru
+promo-citilink.com
+ps5-game.ru
+ps5-sony.ru
+psn-playstation.ru
+sony-center.org
+store-playstation.eu
+store-playstation.ru
+crazygameis.com
+bitwariden.com
+keepass.de
+# Microsoft Teams Scams
+msftprotection.onmicrosoft.com
+identityVerification.onmicrosoft.com
+accountsVerification.onmicrosoft.com
+azuresecuritycenter.onmicrosoft.com
+teamsprotection.onmicrosoft.com
+Strato IDN-Homograph
+www.ѕtrаtо.dе
+ѕtrаtо.dе
+# Malware
+fitgirlrepack.co
+fitgirl-repacks.cc
+fitgirl-repacks.website
+firgirl-repacks.website
+# Streaming
+ddownload.com
+hd-world.org
+megaddl.co
+octuni.com
+www2.aniflix.tv
+bigmovies10.site
+# Scam shops
+quordlepuzzles.com
+techedubyte.com
+arldeemix.com
+# JavaScript based crypto currency mining
+coin-hive.com
+www.coin-hive.com
 # Waze
 adsassets.waze.com
 ads-resources-legacy.waze.com
@@ -6,7 +109,6 @@ adsassets-ipv6.waze.com
 advil.waze.com
 row-advil.waze.com
 sdk.waze.com
-
 # Twitch
 api.mixpanel.com
 spade.twitch.com
@@ -187,25 +289,6 @@ external-ber1-1.xx.fbcdn.net
 staging.mycloud.com
 # TED app
 s0.2mdn.net
-# Malware
-fitgirlrepack.co
-fitgirl-repacks.cc
-fitgirl-repacks.website
-firgirl-repacks.website
-# Streaming
-ddownload.com
-hd-world.org
-megaddl.co
-octuni.com
-www2.aniflix.tv
-bigmovies10.site
-# Scam shops
-quordlepuzzles.com
-techedubyte.com
-arldeemix.com
-# JavaScript based crypto currency mining
-coin-hive.com
-www.coin-hive.com
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -1221,112 +1304,28 @@ www.ptuk.edu.ps
 yuigamrtok03.onmicrosoft.com
 dghgamerousin03.onmicrosoft.com
 ertgasionfas01.onmicrosoft.com
-# This list contains shady top level domains (TLDs)
-# You can use this list in AdGuard Home
-||.co^
-||.click^
-||.top^
-||.sbs^
-||.id^
-||.gd^
-||.pro^
-||.ninja^
-# Onion Addresses resolved over classic DNS providers
-||.onion^
-# Ad provider
-ads2.web1tv.de
-# More ads
-revenuecat.com
-doubleclick.net
-# Ads on sueddeutsche.de
-cdn.m-pathy.com
-click-de.plista.com
-farm-de.plista.com
-static-de.plista.com
-www.plista.com
-plista.com
-click.plista.com
-data-86d2aee9fa.sueddeutsche.de
-data-ac3d45df06.sueddeutsche.de
-fsm.sueddeutsche.de
-iqmetrics.sueddeutsche.de
-service-ens.sueddeutsche.de
-# Mindfactory Ads
-ads.mindfactory.de
-# Snapchat Ads and Analytics
-app-analytics-v2.snapchat.com
-ads-interface.sc-cdn.net
-# GitHub Typo
-ghrc.io
-# Scam and Typosquatting
-audacity.de
-playstation-sony.eu
-playstation-sony.com
-playstation-sony.ru
-playstation5-sony.ru
-promo-citilink.com
-ps5-game.ru
-ps5-sony.ru
-psn-playstation.ru
-sony-center.org
-store-playstation.eu
-store-playstation.ru
-crazygameis.com
-bitwariden.com
-keepass.de
-# Microsoft Teams Scams
-msftprotection.onmicrosoft.com
-identityVerification.onmicrosoft.com
-accountsVerification.onmicrosoft.com
-azuresecuritycenter.onmicrosoft.com
-teamsprotection.onmicrosoft.com
-Strato IDN-Homograph
-www.ѕtrаtо.dе
-ѕtrаtо.dе
-# Various
-wsp.mgid.com
-# Probabaly never used Google Domains
-google.sm
-google.com.pg
-# Shady APKs
-liteapks.com
-# Unknown use
-api.revenuecat.com
-di-uldvnmm2.leasewebultracdn.com
-bit.do
-# Shady Site
-bluemail.me
-treesize.net
-# Shady stuff hosted on Huawei Cloud
-myhuaweicloud.com
-# Adobe Licensing
-licensing.adobe.com 
-# Opera Speed dial and stuff
-speeddials.opera.com
-weather.opera-api.com
-sitecheck.opera.com
-# Link shortener
-adf.ly
-bom.so
-urltiny.ru
-pke.to
-shoort.ink
-cli.co
-zipurl.link
-urlz.fr
-rb.gy
-t.co
-# Local Domains that should not be resolved over the Internet
-speedport.ip
-fritz.box
-wpad.speedport.ip
-wpad.fritz.box
-censys-scanner.com
-internet-census.org
-deepfield.net
-shadowserver.org
-stretchoid.com
-internet-measurement.com
+atritelecom.com.br
+salistek.net
+academiacimneiber.com
+climbing.architectenormannpiller.com
+ertgasionfas.onmicrosoft.com
+maluku-cerdas.id
+dongshengph.com
+opmlgridironpicksin02.onmicrosoft.com
+itsviktus.co.uk
+onlinemadrasa.org
+fdggoaldrafthq04.onmicrosoft.com
+hyugamigosoyn05.onmicrosoft.com
+iklgasionfas01.onmicrosoft.com
+iklgasionfas02.onmicrosoft.com
+infoprotesh22.onmicrosoft.com
+infowetech33.onmicrosoft.com
+nssrmzhv.de
+opmgamigosoyn.onmicrosoft.com
+opmlgridironpicksin04.onmicrosoft.com
+oracle.linuxmaster.pp.ua
+therugest.com
+volleynest.com
 # Windows 10 Telemetry
 geo.settings-win.data.microsoft.com.akadns.net
 db5-eap.settings-win.data.microsoft.com.akadns.net
@@ -1369,3 +1368,26 @@ us4-v20.events.data.microsoft.com
 us5-v20.events.data.microsoft.com
 v20.vortex-win.data.microsoft.com
 vortex-win.data.microsoft.com
+# Ad provider
+ads2.web1tv.de
+# More ads
+revenuecat.com
+doubleclick.net
+# Ads on sueddeutsche.de
+cdn.m-pathy.com
+click-de.plista.com
+farm-de.plista.com
+static-de.plista.com
+www.plista.com
+plista.com
+click.plista.com
+data-86d2aee9fa.sueddeutsche.de
+data-ac3d45df06.sueddeutsche.de
+fsm.sueddeutsche.de
+iqmetrics.sueddeutsche.de
+service-ens.sueddeutsche.de
+# Mindfactory Ads
+ads.mindfactory.de
+# Snapchat Ads and Analytics
+app-analytics-v2.snapchat.com
+ads-interface.sc-cdn.net
