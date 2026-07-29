@@ -40,3 +40,9 @@ us4-v20.events.data.microsoft.com
 us5-v20.events.data.microsoft.com
 v20.vortex-win.data.microsoft.com
 vortex-win.data.microsoft.com
+
+# Office telemetry
+# https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
+self.events.data.microsoft.com
+nexus.officeapps.live.com
+hubblecontent.osi.office.net
