@@ -29,7 +29,7 @@ jobs:
       - name: Get new domains from spam folder
         run: |
           cd scripts
-          python3 junk-mail.py >> ../spam.txt
+          python3 junk-mail.py
 
       - name: Remove duplicate and empty lines from spam.txt
         run: |
