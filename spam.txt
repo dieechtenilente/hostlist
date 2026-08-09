@@ -1071,20 +1071,20 @@ yuioheroicwinspinx04.onmicrosoft.com
 zedfheroicwinspinx01.onmicrosoft.com
 zedfheroicwinspinx03.onmicrosoft.com
 jawwid.com
-Loaded 35 whitelisted domains
-Cleaned ../all-domains.txt: 1338 domains
-Cleaned ../spam.txt: 1071 domains
-Cleaned ../ads.txt: 13 domains
-Cleaned ../domain-squatting.txt: 22 domains
-Cleaned ../internet-scraper-scanner.txt: 6 domains
-Cleaned ../malware.txt: 15 domains
-Cleaned ../shady.txt: 25 domains
-Cleaned ../tld.txt: 9 domains
-Cleaned ../tracking.txt: 142 domains
-Cleaned ../windows-telemetry.txt: 37 domains
-Logging in
+loaded 35 whitelisted domains
+cleaned ../all-domains.txt
+cleaned ../spam.txt
+cleaned ../ads.txt
+cleaned ../domain-squatting.txt
+cleaned ../internet-scraper-scanner.txt
+cleaned ../malware.txt
+cleaned ../shady.txt
+cleaned ../tld.txt
+cleaned ../tracking.txt
+cleaned ../windows-telemetry.txt
+logging in
 3 messages
-Discovered 5 domains from email
-Adding fdggoaldrafthq.onmicrosoft.com
-Adding freeflowducts.com
-Adding jawwid.com
+discovered 5 domains from email
+adding fdggoaldrafthq.onmicrosoft.com
+adding freeflowducts.com
+adding jawwid.com
