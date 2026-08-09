@@ -7,12 +7,7 @@ doubleclick.net
 
 # Ads on sueddeutsche.de
 cdn.m-pathy.com
-click-de.plista.com
-farm-de.plista.com
-static-de.plista.com
-www.plista.com
 plista.com
-click.plista.com
 data-86d2aee9fa.sueddeutsche.de
 data-ac3d45df06.sueddeutsche.de
 fsm.sueddeutsche.de

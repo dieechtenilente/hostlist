@@ -21,8 +21,6 @@ edge-beta.ads.twitch.tv
 edge.ads.twitch.tv
 fan.twitch.tv
 mp.twitch.tv
-origin.edge-beta.ads.twitch.tv
-origin.edge.ads.twitch.tv
 pubster.twitch.tv
 spade.sci.twitch.tv
 spade.twitch.tv
@@ -74,12 +72,9 @@ cdn.ad.xiaomi.com
 data.mistat.xiaomi.com
 e.ad.xiaomi.com
 globalapi.ad.xiaomi.com
-new.api.ad.xiaomi.com
 sdkconfig.ad.xiaomi.com
 ssp.ad.xiaomi.com
 test.ad.xiaomi.com
-test.e.ad.xiaomi.com
-test.new.api.ad.xiaomi.com
 cc.sys.intl.xiaomi.com
 cc.sys.miui.com
 ccc.sys.miui.com
@@ -94,9 +89,6 @@ feedback.miui.com
 data.sec.miui.com
 
 # Roku
-tyler.logs.roku.com
-giga.logs.roku.com
-cooper.logs.roku.com
 ads-cf-us-east-1.delivery.roku.com
 ads-cf-us-west-2.delivery.roku.com
 ads-us-east-1.delivery.roku.com
@@ -105,29 +97,14 @@ ads.roku.com
 amoeba-plus.web.roku.com
 amoeba.web.roku.com
 analytics.roku.com
-api.ads.roku.com
 assets.sr.roku.com
-cdn.tcom.ads.roku.com
 cloudservices.roku.com
 customer-feedbacks.web.roku.com
-delta-staging.ads.roku.com
-delta.ads.roku.com
-i.ads.roku.com
-identity-dev.ads.roku.com
-identity-internal-dev.ads.roku.com
-identity-internal.ads.roku.com
-identity.ads.roku.com
-info.ads.roku.com
 item-tracking.dev.sr.roku.com
-login.ads.roku.com
 logs.roku.com
 osm-ads-cf.delivery.roku.com
 osm-ads.delivery.roku.com
-p.ads.roku.com
 pixel.web.roku.com
-preferences.ads.roku.com
-preferences.staging.ads.roku.com
-ravm-preprod.ads.roku.com
 samples.voice.cti.roku.com
 traces.sr.roku.com
 wwwimg.roku.com
@@ -154,8 +131,6 @@ omniture.com
 gfe.nvidia.com
 gfe.geforce.com
 telemetry.nvidia.com
-telemetry.gfe.nvidia.com
-events.gfe.nvidia.com
 gfwsl.geforce.com
 
 # Amazon (Fire TV Stick) Analytics

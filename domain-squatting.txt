@@ -20,11 +20,10 @@ keepass.de
 
 # Microsoft Teams Scams
 msftprotection.onmicrosoft.com
-identityVerification.onmicrosoft.com
-accountsVerification.onmicrosoft.com
+identityverification.onmicrosoft.com
+accountsverification.onmicrosoft.com
 azuresecuritycenter.onmicrosoft.com
 teamsprotection.onmicrosoft.com
 
-Strato IDN-Homograph
-www.ѕtrаtо.dе
+# Strato idn-homograph
 ѕtrаtо.dе

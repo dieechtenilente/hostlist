@@ -21,7 +21,7 @@ treesize.net
 myhuaweicloud.com
 
 # Adobe Licensing
-licensing.adobe.com 
+licensing.adobe.com
 
 # Opera Speed dial and stuff
 speeddials.opera.com
@@ -38,10 +38,7 @@ cli.co
 zipurl.link
 urlz.fr
 rb.gy
-t.co
 
 # Local Domains that should not be resolved over the Internet
 speedport.ip
 fritz.box
-wpad.speedport.ip
-wpad.fritz.box
