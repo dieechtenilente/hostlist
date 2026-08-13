@@ -1361,6 +1361,8 @@ siratours-eg.com
 rider-dobson.net
 kosmologiclda.co.mz
 letter2.magix.com
+runamedical.com.br
+groepspraktijkanemoon.be
 # Windows 10 Telemetry
 geo.settings-win.data.microsoft.com.akadns.net
 db5-eap.settings-win.data.microsoft.com.akadns.net
