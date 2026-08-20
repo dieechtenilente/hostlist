@@ -1,3 +1,5 @@
+# Domains excluded from the automatic inbox scraping
+# Not necessarily "good" domains
 kunden.commerzbank.de
 www.adobe.com
 schema.org
