@@ -37,3 +37,4 @@ www.facebook.com
 www.youtube.com
 freenet.de
 outlook.com
+mail2.microsoft.com
