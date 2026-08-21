@@ -40,3 +40,5 @@ www.youtube.com
 freenet.de
 outlook.com
 mail2.microsoft.com
+protect.docusign.net
+docusign.com
