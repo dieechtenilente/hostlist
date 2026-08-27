@@ -43,3 +43,4 @@ mail2.microsoft.com
 protect.docusign.net
 docusign.com
 live.com
+outlook.live.com
