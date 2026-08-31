@@ -44,3 +44,4 @@ protect.docusign.net
 docusign.com
 live.com
 outlook.live.com
+revolut.com
