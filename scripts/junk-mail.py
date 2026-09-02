@@ -65,7 +65,8 @@ def normalize_domain(domain):
     # Remove port if present.
     domain = domain.split(":", 1)[0]
 
-    return domain if domain else None
+    # Return domain if it contains an dot
+    return domain if domain and "." in domain else None
 
 
 def refactor_domains(domains):
