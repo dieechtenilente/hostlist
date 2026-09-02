@@ -93,6 +93,7 @@ def normalize_domain(domain):
     if ":" in domain:
         domain = domain.split(":", 1)[0]
 
+<<<<<<< HEAD
     # Remove trailing DNS dot.
     domain = domain.rstrip(".")
 
@@ -108,6 +109,9 @@ def normalize_domain(domain):
         return None
 
     return domain
+=======
+    return domain if domain else None
+>>>>>>> parent of 19b9169 (Fixed #9)
 
 
 def canonicalize_domain(domain):
