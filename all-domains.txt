@@ -19,7 +19,16 @@ app-analytics-v2.snapchat.com
 ads-interface.sc-cdn.net
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
+||.co^
+||.click^
+||.top^
+||.sbs^
+||.id^
+||.gd^
+||.pro^
+||.ninja^
 # Onion Addresses resolved over classic DNS providers
+||.onion^
 censys-scanner.com
 internet-census.org
 deepfield.net
@@ -307,6 +316,7 @@ accountsverification.onmicrosoft.com
 azuresecuritycenter.onmicrosoft.com
 teamsprotection.onmicrosoft.com
 # Strato idn-homograph
+ѕtrаtо.dе
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -1602,3 +1612,31 @@ sugmys.com
 rqcd1aroc2dqlsr5bpo8ozn1raf0.com
 peopletoholdonyo.net
 imailsmtp.com
+---syncservice-2edgq.96731255.com
+---syncservice-9c63l.91143021.com
+---syncservice-ifjk7.76618109.com
+---syncservice-sfoky.63609045.com
+---syncservice-r41an.70652106.com
+---syncservice-etntl.14717629.com
+---syncservice-c2jur.58682051.com
+icloud.com.81629
+pslvtnafzwfpnt
+ekevfdkwytvmnu
+jizxevbhfddldc
+qgrwgtxysizngv
+2wag7cmmi3bld2ugjf3pakz9j5wi
+dpbpjyfbdaauio
+fv3y6bi2p33c0lus4l1vwfw17pbx
+rkefvinrrtjxmj
+hdqyfdaaapwjey
+roxyackzfjgmll
+pgmssbledupbyu
+mafqkrfpkgfazd
+gqbzelwvfhbqnn
+ynyavwkaunpwce
+jgjexmqwovmbmo
+fymlpnncotgyqb
+tvtwkhlygbqtbr
+tjizgtlwotaktr
+1do5pb8dx4ohdjqxr8m660og521c
+htyleef7z8vdcf689rpr6bb41jx3
