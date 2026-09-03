@@ -1,6 +1,58 @@
+# This list contains shady top level domains (TLDs)
+# You can use this list in AdGuard Home
+||.co^
+||.click^
+||.top^
+||.sbs^
+||.id^
+||.gd^
+||.pro^
+||.ninja^
+
+# Onion Addresses resolved over classic DNS providers
+||.onion^
+# Windows 10 Telemetry
+geo.settings-win.data.microsoft.com.akadns.net
+db5-eap.settings-win.data.microsoft.com.akadns.net
+settings-win.data.microsoft.com
+db5.settings-win.data.microsoft.com.akadns.net
+asimov-win.settings.data.microsoft.com.akadns.net
+db5.vortex.data.microsoft.com.akadns.net
+v10-win.vortex.data.microsoft.com.akadns.net
+geo.vortex.data.microsoft.com.akadns.net
+v10.events.data.microsoft.com
+v20.events.data.microsoft.com
+vortex-win-sandbox.data.microsoft.com
+alpha.telemetry.microsoft.com
+oca.telemetry.microsoft.com
+ceuswatcab01.blob.core.windows.net
+ceuswatcab02.blob.core.windows.net
+eaus2watcab01.blob.core.windows.net
+eaus2watcab02.blob.core.windows.net
+weus2watcab01.blob.core.windows.net
+weus2watcab02.blob.core.windows.net
+au-v10.events.data.microsoft.com
+au-v20.events.data.microsoft.com
+de-v20.events.data.microsoft.com
+eu-v10.events.data.microsoft.com
+eu-v20.events.data.microsoft.com
+events-sandbox.data.microsoft.com
+jp-v10.events.data.microsoft.com
+jp-v20.events.data.microsoft.com
+telecommand.telemetry.microsoft.com
+uk-v20.events.data.microsoft.com
+us-v10.events.data.microsoft.com
+us-v20.events.data.microsoft.com
+us4-v20.events.data.microsoft.com
+us5-v20.events.data.microsoft.com
+vortex-win.data.microsoft.com
+# Office telemetry
+# https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
+self.events.data.microsoft.com
+nexus.officeapps.live.com
+hubblecontent.osi.office.net
 # Ad provider
 ads2.web1tv.de
-
 # More ads
 revenuecat.com
 doubleclick.net
@@ -17,59 +69,6 @@ ads.mindfactory.de
 # Snapchat Ads and Analytics
 app-analytics-v2.snapchat.com
 ads-interface.sc-cdn.net
-# This list contains shady top level domains (TLDs)
-# You can use this list in AdGuard Home
-||.co^
-||.click^
-||.top^
-||.sbs^
-||.id^
-||.gd^
-||.pro^
-||.ninja^
-# Onion Addresses resolved over classic DNS providers
-||.onion^
-censys-scanner.com
-internet-census.org
-deepfield.net
-shadowserver.org
-stretchoid.com
-internet-measurement.com
-# Various
-wsp.mgid.com
-# Probabaly never used Google Domains
-google.sm
-google.com.pg
-# Shady APKs
-liteapks.com
-# Unknown use
-api.revenuecat.com
-di-uldvnmm2.leasewebultracdn.com
-bit.do
-# Shady Site
-bluemail.me
-treesize.net
-# Shady stuff hosted on Huawei Cloud
-myhuaweicloud.com
-# Adobe Licensing
-licensing.adobe.com
-# Opera Speed dial and stuff
-speeddials.opera.com
-weather.opera-api.com
-sitecheck.opera.com
-# Link shortener
-adf.ly
-bom.so
-urltiny.ru
-pke.to
-shoort.ink
-cli.co
-zipurl.link
-urlz.fr
-rb.gy
-# Local Domains that should not be resolved over the Internet
-speedport.ip
-fritz.box
 # Waze
 adsassets.waze.com
 ads-resources-legacy.waze.com
@@ -233,90 +232,12 @@ external-ber1-1.xx.fbcdn.net
 staging.mycloud.com
 # TED app
 s0.2mdn.net
-# Windows 10 Telemetry
-geo.settings-win.data.microsoft.com.akadns.net
-db5-eap.settings-win.data.microsoft.com.akadns.net
-settings-win.data.microsoft.com
-db5.settings-win.data.microsoft.com.akadns.net
-asimov-win.settings.data.microsoft.com.akadns.net
-db5.vortex.data.microsoft.com.akadns.net
-v10-win.vortex.data.microsoft.com.akadns.net
-geo.vortex.data.microsoft.com.akadns.net
-v10.events.data.microsoft.com
-v20.events.data.microsoft.com
-vortex-win-sandbox.data.microsoft.com
-alpha.telemetry.microsoft.com
-oca.telemetry.microsoft.com
-ceuswatcab01.blob.core.windows.net
-ceuswatcab02.blob.core.windows.net
-eaus2watcab01.blob.core.windows.net
-eaus2watcab02.blob.core.windows.net
-weus2watcab01.blob.core.windows.net
-weus2watcab02.blob.core.windows.net
-au-v10.events.data.microsoft.com
-au-v20.events.data.microsoft.com
-de-v20.events.data.microsoft.com
-eu-v10.events.data.microsoft.com
-eu-v20.events.data.microsoft.com
-events-sandbox.data.microsoft.com
-jp-v10.events.data.microsoft.com
-jp-v20.events.data.microsoft.com
-telecommand.telemetry.microsoft.com
-uk-v20.events.data.microsoft.com
-us-v10.events.data.microsoft.com
-us-v20.events.data.microsoft.com
-us4-v20.events.data.microsoft.com
-us5-v20.events.data.microsoft.com
-vortex-win.data.microsoft.com
-# Office telemetry
-# https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
-self.events.data.microsoft.com
-nexus.officeapps.live.com
-hubblecontent.osi.office.net
-# Malware
-fitgirlrepack.co
-fitgirl-repacks.cc
-fitgirl-repacks.website
-firgirl-repacks.website
-# Streaming
-ddownload.com
-hd-world.org
-megaddl.co
-octuni.com
-www2.aniflix.tv
-bigmovies10.site
-# Scam shops
-quordlepuzzles.com
-techedubyte.com
-arldeemix.com
-# JavaScript based crypto currency mining
-coin-hive.com
-notepad.plus# GitHub Typo
-ghrc.io
-# Scam and Typosquatting
-audacity.de
-playstation-sony.eu
-playstation-sony.com
-playstation-sony.ru
-playstation5-sony.ru
-promo-citilink.com
-ps5-game.ru
-ps5-sony.ru
-psn-playstation.ru
-sony-center.org
-store-playstation.eu
-store-playstation.ru
-crazygameis.com
-bitwariden.com
-keepass.de
-# Microsoft Teams Scams
-msftprotection.onmicrosoft.com
-identityverification.onmicrosoft.com
-accountsverification.onmicrosoft.com
-azuresecuritycenter.onmicrosoft.com
-teamsprotection.onmicrosoft.com
-# Strato idn-homograph
-ѕtrаtо.dе
+censys-scanner.com
+internet-census.org
+deepfield.net
+shadowserver.org
+stretchoid.com
+internet-measurement.com
 # Spam Mail
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -538,6 +459,7 @@ superkoran.info
 aadvanstar.co.uk
 advanstar.co.uk
 theowensfamily.info
+shoort.ink
 hwsrv-1046285.hostwindsdns.com
 d15k2d11r6t6rl.cloudfront.net
 pet-ck-500.iumfragen.com
@@ -1656,3 +1578,81 @@ fhcmdk4m1he9mkjiddjb4tztg375
 74puptet3mj3nrsf2bkkaq3ehxdb
 6bdoyhaqdsogzb40h2d4y2ljfevi.com
 cot29s0ue49.fasteshop.site
+# Malware
+fitgirlrepack.co
+fitgirl-repacks.cc
+fitgirl-repacks.website
+firgirl-repacks.website
+# Streaming
+ddownload.com
+hd-world.org
+megaddl.co
+octuni.com
+www2.aniflix.tv
+bigmovies10.site
+# Scam shops
+quordlepuzzles.com
+techedubyte.com
+arldeemix.com
+# JavaScript based crypto currency mining
+coin-hive.com
+notepad.plus# Various
+wsp.mgid.com
+# Probabaly never used Google Domains
+google.sm
+google.com.pg
+# Shady APKs
+liteapks.com
+# Unknown use
+api.revenuecat.com
+di-uldvnmm2.leasewebultracdn.com
+bit.do
+# Shady Site
+bluemail.me
+treesize.net
+# Shady stuff hosted on Huawei Cloud
+myhuaweicloud.com
+# Adobe Licensing
+licensing.adobe.com
+# Opera Speed dial and stuff
+speeddials.opera.com
+weather.opera-api.com
+sitecheck.opera.com
+# Link shortener
+adf.ly
+bom.so
+urltiny.ru
+pke.to
+cli.co
+zipurl.link
+urlz.fr
+rb.gy
+# Local Domains that should not be resolved over the Internet
+speedport.ip
+fritz.box
+# GitHub Typo
+ghrc.io
+# Scam and Typosquatting
+audacity.de
+playstation-sony.eu
+playstation-sony.com
+playstation-sony.ru
+playstation5-sony.ru
+promo-citilink.com
+ps5-game.ru
+ps5-sony.ru
+psn-playstation.ru
+sony-center.org
+store-playstation.eu
+store-playstation.ru
+crazygameis.com
+bitwariden.com
+keepass.de
+# Microsoft Teams Scams
+msftprotection.onmicrosoft.com
+identityverification.onmicrosoft.com
+accountsverification.onmicrosoft.com
+azuresecuritycenter.onmicrosoft.com
+teamsprotection.onmicrosoft.com
+# Strato idn-homograph
+ѕtrаtо.dе
