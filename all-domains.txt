@@ -45,7 +45,7 @@ eu.vortex-win.data.microsft.com
 alpha.telemetry.microsft.com
 oca.telemetry.microsft.com
 # Office telemetry
-bsi.bund.de/shareddocs/downloads/de/bsi/publikationen/studien/office_telemetrie/office_telemetrie.pdf?__blob=publicationfile&v=5
+# https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
 nexus.officeapps.live.com
 # Ad provider
 ads2.web1tv.de
