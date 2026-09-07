@@ -45,3 +45,5 @@ docusign.com
 live.com
 outlook.live.com
 revolut.com
+de.wikipedia.org
+wikipedia.org
