@@ -47,3 +47,5 @@ outlook.live.com
 revolut.com
 de.wikipedia.org
 wikipedia.org
+news.lidl.de
+lidl.de
