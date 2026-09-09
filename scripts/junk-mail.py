@@ -49,6 +49,10 @@ def normalize_domain(domain):
     if not domain:
         return None
 
+    # Check if domain contains at least one dot before adding
+    if "." not in domain:
+        return None
+
     domain = domain.strip().lower()
 
     # Remove trailing DNS dot.
@@ -592,14 +596,9 @@ def process_account(account):
             )
             return domains
 
-        message_count = int(
-            messages[0]
-        )
+        message_count = int(messages[0])
 
-        print(
-            #f"{username}: processing "
-            f"{message_count} messages"
-        )
+        print(f"{message_count} messages")
 
         for i in range(
             1,
