@@ -42,3 +42,7 @@ rb.gy
 # Local Domains that should not be resolved over the Internet
 speedport.ip
 fritz.box
+
+# Fake shop
+willowgroven.com
+market.willowgroven.com
