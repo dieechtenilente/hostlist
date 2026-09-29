@@ -544,6 +544,16 @@ za.lgsmartad.com
 zm-ad-lgsmartad-com.aws-prd.net
 zm.lgsmartad.com
 zw-ad-lgsmartad-com.aws-prd.net
+aic-ngfts.tv.wiselg.com
+kic-ngfts.lge.com
+kic-qt2-ngfts.lge.com
+us.elastic.lgwebostv.com
+US.nextlgsdp.com
+us.nextlgsdp.com
+aic.lgchhomeapp.lgtvcommon.com
+aic.cdplauncher.lgtvcommon.com
+aic.cdpsvc.lgtvcommon.com
+aic.cdpbeacon2.lgtvcommon.com
 
 # LG TV - Content rows, recommendations and home screen services (all regions)
 # Blocks trending/recommended rows like 'Trending', 'Popular games'.
@@ -603,6 +613,7 @@ ruc.recommend.lgtvcommon.com
 ruc.sports.lgtviot.com
 ruc.wiseconfig.lgtvcommon.com
 wiseconfig.lgtvcommon.com
+us.lgrecommends.lgappstv.com
 
 # LG TV Telemetry
 fr.security.lgtvsdp.com
