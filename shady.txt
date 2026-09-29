@@ -4,6 +4,9 @@ wsp.mgid.com
 # Probabaly never used Google Domains
 google.sm
 google.com.pg
+google.co.zw
+google.nr
+google.dz
 
 # Shady APKs
 liteapks.com
