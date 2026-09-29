@@ -1,4 +1,4 @@
-# Spam Mail
+# Domains used in spam mail or sms
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
 sparka-kontoeinzuge-de.com
@@ -775,7 +775,6 @@ wfuv.mayantial.jp.parrogation.com
 wfuv.mayantial.jp.timeterian.com
 wfuv.mayantial.jp.timeterian.com.pogole.com
 zenithgrouptng333.onmicrosoft.com
-# SMS Spam
 me2.kr
 dhl-bestatigung.com
 wkv.com
