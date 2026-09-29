@@ -7,6 +7,9 @@ google.com.pg
 google.co.zw
 google.nr
 google.dz
+google.im
+google.com.co
+google.com.kh
 
 # Shady APKs
 liteapks.com
