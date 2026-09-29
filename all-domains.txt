@@ -635,6 +635,8 @@ speedport.ip
 fritz.box
 # Fake shop
 willowgroven.com
+bewertungzone.org
+wandlueftung.de
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co^
@@ -2168,6 +2170,8 @@ f9t7ykhurzetfmfilxqqamwhkpnf.com
 mail-irl-em6.launchbaseads.com
 marketnsest.space
 rnaqdas.com
+skmiu7uyt7jeruwlw9tkozhvhnoh.com
+h1xhyaalmhixfqmmc05egoiqndtr.com
 # Malware
 fitgirlrepack.co
 fitgirl-repacks.cc
