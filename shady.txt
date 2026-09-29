@@ -52,3 +52,6 @@ fritz.box
 # Fake shop
 willowgroven.com
 market.willowgroven.com
+www.bewertungzone.org
+bewertungzone.org
+wandlueftung.de
