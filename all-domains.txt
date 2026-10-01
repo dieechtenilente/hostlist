@@ -609,6 +609,8 @@ google.co.mz
 google.vu
 google.co.ug
 google.gy
+google.com.br
+google.co.ls
 # Shady APKs
 liteapks.com
 # Unknown use
@@ -2193,8 +2195,6 @@ jygibicjiant.nexahub.cc
 z0mc1ysgn7dr.godskyvera.online
 sskyforge.net
 mahleracandheatingllc.com
-google.com.br
-google.co.ls
 7dg2gg7srbjuysmoxpuzvghxhvcp.com
 # Malware
 fitgirlrepack.co
