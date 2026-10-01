@@ -10,6 +10,18 @@ google.dz
 google.im
 google.com.co
 google.com.kh
+google.com.co
+google.dz
+google.com.kh
+google.nr
+google.co.zw
+google.im
+google.ge
+google.tl
+google.co.mz
+google.vu
+google.co.ug
+google.gy
 
 # Shady APKs
 liteapks.com
