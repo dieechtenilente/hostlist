@@ -603,6 +603,12 @@ google.dz
 google.im
 google.com.co
 google.com.kh
+google.ge
+google.tl
+google.co.mz
+google.vu
+google.co.ug
+google.gy
 # Shady APKs
 liteapks.com
 # Unknown use
@@ -2174,15 +2180,22 @@ skmiu7uyt7jeruwlw9tkozhvhnoh.com
 h1xhyaalmhixfqmmc05egoiqndtr.com
 verdantremovals.com
 aleteia-italia.org
-google.ge
-google.tl
 wxijjfl3wcaoccezc1v9i8yq2zjf.com
-google.co.mz
 tarha.tampere.fi
-google.vu
-google.co.ug
 solutionmedfaturamento.com.br
-google.gy
+cswencfm4mmk.pinkorae.ink
+azerhoopreal02.onmicrosoft.com
+4divrpaijgz.dirttax.store
+www-test-lacoste.com
+lisadefeat.com
+jygibicjiant.nexahub.cc
+1v68bkbtedbp.creativeink.ink
+z0mc1ysgn7dr.godskyvera.online
+sskyforge.net
+mahleracandheatingllc.com
+google.com.br
+google.co.ls
+7dg2gg7srbjuysmoxpuzvghxhvcp.com
 # Malware
 fitgirlrepack.co
 fitgirl-repacks.cc
