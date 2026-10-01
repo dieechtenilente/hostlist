@@ -22,6 +22,17 @@ google.co.mz
 google.vu
 google.co.ug
 google.gy
+google.dz
+google.vu
+google.co.zw
+google.gy
+google.ge
+google.tl
+google.com.br
+google.co.ls
+google.nr
+google.co.ug
+google.co.mz
 
 # Shady APKs
 liteapks.com
