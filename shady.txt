@@ -33,6 +33,12 @@ google.co.ls
 google.nr
 google.co.ug
 google.co.mz
+google.co.in
+google.cd
+google.cz
+google.com.sg
+google.cg
+google.im
 
 # Shady APKs
 liteapks.com
