@@ -39,6 +39,22 @@ google.cz
 google.com.sg
 google.cg
 google.im
+google.cz
+google.cg
+google.im
+google.com.sg
+google.co.in
+google.cd
+google.co.kr
+uny.ac.id
+atleta.radom.pl
+google.as
+google.ae
+google.com.pk
+google.cl
+google.com.my
+google.gr
+google.es
 
 # Shady APKs
 liteapks.com
