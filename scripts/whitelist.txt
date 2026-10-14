@@ -52,3 +52,5 @@ lidl.de
 letter2.magix.com
 consorsbank.de
 online.de
+protonmail.com
+web.de
