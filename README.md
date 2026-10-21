@@ -36,3 +36,7 @@ Feel free to contribute bad domains and code updates via pull request!
 * https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Telemetrie-Endpunkte_Windows10_Build_Build_21H2.html
 * https://www.golem.de/news/via-typosquatting-angreifer-verbreiten-zenrat-malware-als-bitwarden-setup-2309-178062.html
 * https://github.com/hugobatista/lg-tv-ad-block/blob/main/list
+
+##
+
+Blocking spam since 02/2020
