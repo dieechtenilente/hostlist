@@ -1,7 +1,8 @@
 # Hostlist
+
 [![Generate All Domains](https://github.com/dieechtenilente/hostlist/actions/workflows/renew-all-domains.yml/badge.svg)](https://github.com/dieechtenilente/hostlist/actions/workflows/renew-all-domains.yml)
 
-PiHole Gravity Blocklist/Host list for blocking various unpleasant domains. It is automatically updated with spam that I get. You can choose if you want `all-domains.txt` or just a subset e.g. `tracking.txt`.
+Host list for blocking various unpleasant domains. It is automatically updated with spam mails that I get. You can choose if you want `all-domains.txt` or just a subset e.g. `tracking.txt`.
 
 Easy mode: Just add the following list to your PiHole/AdGuard:
 
@@ -11,16 +12,19 @@ https://raw.githubusercontent.com/dieechtenilente/hostlist/main/all-domains.txt
 
 Blocking of TLDs via regex might only work on AdGuard. Alternativly add the txt-files if you like.
 
-# Pipeline
+
+## Pipeline
 
 Feel free to adapt this pipeline and use your own IMAP account in a forked repo. Be sure to add the credentials.py as *secret* variable in the repository settings!
 
 
-# Contribute
+## Contribute
+
 Feel free to contribute bad domains and code updates via pull request!
 
 
-# Sources
+## Sources
+
 * https://discourse.pi-hole.net/t/commonly-blacklisted-domains/305
 * https://extreme.pcgameshardware.de/grafikkarten/458638-anleitung-nvidia-telemetrie-deaktivieren.html
 * https://helpx.adobe.com/enterprise/kb/network-endpoints.html
