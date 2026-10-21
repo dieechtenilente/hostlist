@@ -310,7 +310,6 @@ hr.lgsmartad.com
 ht.lgsmartad.com
 hu-ad-lgsmartad-com.aws-prd.net
 hu.lgsmartad.com
-i.ibb.co
 id-ad-lgsmartad-com.aws-prd.net
 id.lgsmartad.com
 ie-ad-lgsmartad-com.aws-prd.net
