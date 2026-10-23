@@ -2285,10 +2285,11 @@ ew1zw6uamszu.creativeink.ink
 zentrovault.website
 torvenagoods.store
 ---dn193u2kl3ti7olfc4nv13sddgxw.com
-gmx.at
 serries.com
 dfirstmail.com
 portalchargekz.org
+cycletoday.online
+gmx.de
 # Windows 10 Telemetry
 geo.settings-win.data.microsoft.com.akadns.net
 db5-eap.settings-win.data.microsoft.com.akadns.net
