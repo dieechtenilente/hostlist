@@ -2336,6 +2336,7 @@ livdygwdgllx.xinkspire.ink
 ---0xmymzr95qqmxdsw3164pjnpa37m.com
 ---5jb7veq5dqerrpo2ga5u81vvozxu.com
 oo9dlarkj4lzh8bfcsbfpo5897lx.com
+nflgmbh.com
 # Windows 10 Telemetry
 geo.settings-win.data.microsoft.com.akadns.net
 db5-eap.settings-win.data.microsoft.com.akadns.net
