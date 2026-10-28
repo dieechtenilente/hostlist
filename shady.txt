@@ -76,3 +76,13 @@ market.willowgroven.com
 www.bewertungzone.org
 bewertungzone.org
 wandlueftung.de
+
+# Schufa Scam
+dateneinsicht.de
+www.dateneinsicht.de
+
+# More Scam
+MeinDate.de
+justizonline.at
+
+
