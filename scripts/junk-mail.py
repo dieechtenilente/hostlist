@@ -27,6 +27,7 @@ TXT_FILES = [ ALL_DOMAINS_FILE,
              "../shady.txt",
              "../tld.txt",
              "../tracking.txt",
+             "../verbraucherschutz.txt",
              "../windows-telemetry.txt"]
 
 
