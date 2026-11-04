@@ -1,6 +1,3 @@
-# Various
-wsp.mgid.com
-
 # Probabaly never used Google Domains
 google.ae
 google.as
@@ -32,21 +29,6 @@ google.sm
 google.tl
 google.vu
 
-# Shady APKs
-liteapks.com
-
-# Unknown use
-api.revenuecat.com
-di-uldvnmm2.leasewebultracdn.com
-bit.do
-
-# Shady Site
-bluemail.me
-treesize.net
-
-# Shady stuff hosted on Huawei Cloud
-myhuaweicloud.com
-
 # Adobe Licensing
 licensing.adobe.com
 
@@ -69,18 +51,3 @@ rb.gy
 # Local Domains that should not be resolved over the Internet
 speedport.ip
 fritz.box
-
-# Fake shop
-willowgroven.com
-market.willowgroven.com
-www.bewertungzone.org
-bewertungzone.org
-wandlueftung.de
-
-# Schufa Scam
-dateneinsicht.de
-www.dateneinsicht.de
-
-# More Scam
-MeinDate.de
-justizonline.at
