@@ -519,6 +519,7 @@ def extract_html_domains(
         matches = re.findall(
             r'<a\s+(?:[^>]*?\s+)?'
             r'href=["\']'
+            r'src=["\']'
             r'(?!mailto:)'
             r'([^"\']*)'
             r'["\']',
