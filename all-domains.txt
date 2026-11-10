@@ -2104,6 +2104,7 @@ bits-mail2.co.za
 horizonse.one
 dorvian.one
 techguides.xyz
+wordreference.shop
 # Malware
 fitgirlrepack.co
 fitgirl-repacks.cc
