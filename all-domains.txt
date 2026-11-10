@@ -2103,6 +2103,7 @@ clarityway.life
 bits-mail2.co.za
 horizonse.one
 dorvian.one
+techguides.xyz
 # Malware
 fitgirlrepack.co
 fitgirl-repacks.cc
