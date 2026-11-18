@@ -2,6 +2,8 @@
 import email
 import imaplib
 import re
+import tldextract
+
 from email.utils import parseaddr
 from urllib.parse import urlparse
 
@@ -17,12 +19,22 @@ ALL_DOMAINS_FILE = "../all-domains.txt"
 SPAM_FILE = "../spam.txt"
 
 TXT_FILES = [
-    ALL_DOMAINS_FILE, SPAM_FILE, "../ads.txt",
-    "../domain-squatting.txt", "../internet-scraper-scanner.txt",
-    "../malware.txt", "../shady.txt", "../tld.txt",
-    "../tracking.txt", "../verbraucherschutz.txt",
-    "../windows-telemetry.txt"
+    ALL_DOMAINS_FILE,
+    SPAM_FILE,
+    "../ads.txt",
+    "../domain-squatting.txt",
+    "../internet-scraper-scanner.txt",
+    "../malware.txt",
+    "../shady.txt",
+    "../tld.txt",
+    "../tracking.txt",
+    "../verbraucherschutz.txt",
+    "../windows-telemetry.txt",
 ]
+
+# Public suffix list, supplied by tldextract.
+TLD = tldextract.TLDExtract()
+PUBLIC_SUFFIXES = sorted(TLD.tlds, key=len, reverse=True)
 
 
 # ============================================================
@@ -34,26 +46,54 @@ def normalize_domain(domain):
         return None
 
     domain = domain.strip().lower()
+    domain = re.sub(r"^https?://", "", domain, flags=re.I)
+    domain = re.split(r"[/;?#]", domain, maxsplit=1)[0]
+    domain = domain.split(":", 1)[0].rstrip(".")
 
     if "." not in domain:
         return None
 
-    domain = re.sub(r"^https?://", "", domain, flags=re.I)
-    domain = domain.rstrip(".").split(":", 1)[0]
+    # Normal domain extraction.
+    result = TLD(domain)
 
-    return domain or None
+    if result.suffix and result.domain:
+        return ".".join(filter(None, [
+            result.subdomain,
+            result.domain,
+            result.suffix
+        ]))
 
+    # Handle garbage appended after the actual public suffix.
+    parts = domain.split(".")
 
-def refactor_domains(domains):
-    return {
-        re.sub(r"^www\.", "", d, flags=re.I)
-        for domain in domains
-        if (d := normalize_domain(domain))
-    }
+    for suffix in PUBLIC_SUFFIXES:
+        suffix_parts = suffix.split(".")
+        count = len(suffix_parts)
+
+        if len(parts) <= count:
+            continue
+
+        candidate = parts[-count:]
+
+        if (
+            candidate[:-1] == suffix_parts[:-1]
+            and candidate[-1].startswith(suffix_parts[-1])
+        ):
+            return ".".join(parts[:-count] + suffix_parts)
+
+    return None
 
 
 def remove_www(domain):
     return re.sub(r"^www\.", "", domain, flags=re.I)
+
+
+def refactor_domains(domains):
+    return {
+        remove_www(domain)
+        for d in domains
+        if (domain := normalize_domain(d))
+    }
 
 
 # ============================================================
@@ -99,7 +139,7 @@ def clean_txt_file(filename, whitelist):
     # Collect valid domains after exact whitelist filtering.
     entries = []
 
-    for index, line in enumerate(lines):
+    for line in lines:
         stripped = line.strip()
 
         if not stripped or stripped.startswith("#"):
@@ -111,13 +151,12 @@ def clean_txt_file(filename, whitelist):
             domain = remove_www(domain)
 
             if not is_whitelisted(domain, whitelist):
-                entries.append((index, domain))
+                entries.append(domain)
 
-    all_domains = {domain for _, domain in entries}
-
-    # Remove subdomains only if their parent exists in the file.
+    all_domains = set(entries)
     removed = set()
 
+    # Remove subdomains only when their parent exists in the file.
     for domain in all_domains:
         parts = domain.split(".")
 
@@ -126,7 +165,7 @@ def clean_txt_file(filename, whitelist):
                 removed.add(domain)
                 break
 
-    # Preserve comments, blank lines and original ordering.
+    # Preserve comments, blank lines and ordering.
     output = []
     seen = set()
 
@@ -161,8 +200,8 @@ def clean_txt_file(filename, whitelist):
     print(f"Cleaned {filename}: {len(seen)} domains")
 
 
-def clean_all_txt_files(txt_files, whitelist):
-    for filename in txt_files:
+def clean_all_txt_files(files, whitelist):
+    for filename in files:
         clean_txt_file(filename, whitelist)
 
 
@@ -198,7 +237,6 @@ def extract_html_domains(msg, domains):
         except Exception:
             continue
 
-        # Extract href and src attributes.
         links = re.findall(
             r'<(?:a\b[^>]*?\bhref|img\b[^>]*?\bsrc)\s*=\s*["\']([^"\']+)["\']',
             body,
@@ -220,13 +258,12 @@ def process_account(account):
     imap = None
 
     username = account.get("username")
-    password = account.get("password")
 
     try:
         imap = imaplib.IMAP4_SSL(account.get("server"))
 
         print("Logging in")
-        imap.login(username, password)
+        imap.login(username, account.get("password"))
 
         status, messages = imap.select(account.get("spam"))
 
@@ -239,12 +276,12 @@ def process_account(account):
 
         for i in range(1, count + 1):
             try:
-                status, msg_data = imap.fetch(str(i), "(RFC822)")
+                status, data = imap.fetch(str(i), "(RFC822)")
 
                 if status != "OK":
                     continue
 
-                for response in msg_data:
+                for response in data:
                     if not isinstance(response, tuple):
                         continue
 
@@ -263,7 +300,7 @@ def process_account(account):
         print(f"Login failed for {username}: {e}")
 
     finally:
-        if imap is not None:
+        if imap:
             try:
                 imap.logout()
             except Exception:
@@ -294,7 +331,6 @@ def append_new_domains(filename, new_domains):
             if domain:
                 existing.add(remove_www(domain))
 
-    # Preserve discovery order without sorting.
     additions = []
 
     for domain in new_domains:
@@ -328,7 +364,7 @@ def main():
     whitelist = read_whitelist(WHITELIST_FILE)
     print(f"Loaded {len(whitelist)} whitelisted domains")
 
-    # Clean existing files before processing.
+    # Clean before processing.
     clean_all_txt_files(TXT_FILES, whitelist)
 
     # Collect domains from all IMAP accounts.
@@ -339,9 +375,10 @@ def main():
 
     print(f"\nDiscovered {len(discovered)} domains from email")
 
-    # Normalize www.* and remove exact whitelist matches.
+    # Normalize and remove exact whitelist matches.
     discovered = {
-        domain for domain in refactor_domains(discovered)
+        domain
+        for domain in refactor_domains(discovered)
         if not is_whitelisted(domain, whitelist)
     }
 
@@ -349,7 +386,7 @@ def main():
     append_new_domains(ALL_DOMAINS_FILE, discovered)
     append_new_domains(SPAM_FILE, discovered)
 
-    # Clean again to remove duplicates and redundant subdomains.
+    # Clean again after adding domains.
     clean_all_txt_files(TXT_FILES, whitelist)
 
     for domain in sorted(discovered):
