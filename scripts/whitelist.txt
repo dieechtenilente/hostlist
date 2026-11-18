@@ -61,3 +61,5 @@ gmx.de
 ups.com
 ups.de
 i.ibb.co
+doctolib.de
+thumb.wikimedia.org
