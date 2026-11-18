@@ -29,7 +29,7 @@ jobs:
       - name: Get new domains from spam folder
         run: |
           cd scripts
-          pip3 install tldextract
+          pip3 install -r requirements.txt
           python3 junk-mail.py
 
       - name: Remove duplicate and empty lines from spam.txt
