@@ -1676,14 +1676,13 @@ pyh28.developmoaning.com
 tshpceuyllrr.quicklink.sbs
 zk8m2zbojx3ghxlw042y1yyfbhuc.com
 yqm3w3t9janws1ydlld1kkswc3tt.com
-slotaza.com7ijqeajww68ee7hgpakpcnl4juwt
+slotaza.com
 -----mail.cqf2ghbwt5.com
 ayfi07b6ny2awptpwoj198z26yiw.com
 vcvlm0lfn5zhcbhlp125966fd4lt.com
 zvxwimg7zh9zr83a7hbaz2yb3exo.com
 -----mail.wiqpt0jnpq.com
 pvrpcu4qva71cnqmyrxlzkqg3xfz.com
-slotaza.comqlmcaiajvqzvxclts9ijv8uyrgyp
 plzalyvhm2s8gz9mnmytqqc9xyc4.com
 3huebq2alifc7ryjlm1e6goetdc0.com
 -----mail.ffdoelzrgw.com
@@ -1976,7 +1975,7 @@ tv.com7dozofsiffqiwtrdsn22qngb0sts
 --kgcp8kf9xwyzc5e.com
 --25fw8efwesv8ndo.com
 ups.de-sp2tl0ygp7erox8kjqhkzf9q17qszlnrpbrwff80
-spinpanda.comhxqk4apw2jwmi7e4tagocrkuvjvx
+spinpanda.com
 --fbfamrtdsamxv9e.com
 --9gu3z6ijexecepe.com
 --7p4u4g9gbf3jpls.com
@@ -1989,14 +1988,11 @@ i4zpa9dsol8y.webnode.sbs
 --u3sk53b7ixjh065.com
 --ugb9g5s3lgwmcgd.com
 bbox.rapidcove.cc
-slotornado.combcbowg261azprch7lmw1cvuk1ess
-slotornado.comxl4vcecisu9e6ntgrr8th9uoq7ut
+slotornado.com
 efgxcxtq1ysb.smartpage.sbs
 2wzwl4wr4cyc.jinkoraq.ink
 --q7seoovtppar9b0.com
 --cynhakrumwk8mqy.com
-slotornado.comenvdbgf3uocn5vu8rwxxohrz6skl
-ups.comfwrqq7uabebogxrpmjk6nlydspur
 --ditjzgqwzsagpce.com
 --tevwvionpw8cm6q.com
 ---wq5glm4dj2eecxeu68ugie8mkizj.com
@@ -2020,7 +2016,6 @@ spinpanda.comfvt82sdscgzotufa7yz9ruc2xsrh
 spinpanda.comjbrwgofbnwhet0mmdrcffkkmmxwm
 admincrypto.com
 --b5jdmvxbeix4jeb.com
-slotornado.comekmgaokoqbiu0tx3xn22r8wyic1r
 --rf41tawurpydum8.com
 --q6hzkactvleoqv3.com
 --ddb5gcz0klplenh.com
@@ -2069,7 +2064,7 @@ lumorapicks.website
 --2qe4remtyscpxje.com
 --mam30qtq7hxf3mj.com
 --qj5ost0lhdpee9n.com
-jetsetspins.comnmjnstamqjwcloibwephc7np049x
+jetsetspins.com
 --jfcv2bxsza146xz.com
 famthybo.dk
 --bggo0xtfrckd2xl.com
@@ -2108,7 +2103,7 @@ wordreference.shop
 myworkacad5.online
 ---w26yw558pt2fs6sdnys1i96omnz3.com
 ---m7dx855ekf156uyeyazen4twe29t.com
-fortislots.de-ghaljrwahlurcctq3bikk9xyybxdlpfbthclmr
+fortislots.de
 --pffe2tyeulxkskepm04o3kjt9j9c.com
 ---96halddhr1m78esfszrw9bx9o470.com
 okswingersclub.com
@@ -2133,6 +2128,8 @@ mywo2.online
 boxmail.scutuma.info
 mail-zob-zp8.taskvoma.com
 boxmail.asordup.pro
+publicdon.com
+boxmail.rosemarkets.org
 # Malware
 fitgirlrepack.co
 fitgirl-repacks.cc
@@ -38662,3 +38659,7 @@ rb.gy
 # Local Domains that should not be resolved over the Internet
 speedport.ip
 fritz.box
+#Shady messenger
+kingschat.io
+kingschat.chat
+kingsplace.shop
