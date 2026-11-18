@@ -51,3 +51,8 @@ rb.gy
 # Local Domains that should not be resolved over the Internet
 speedport.ip
 fritz.box
+
+#Shady messenger
+kingschat.io
+kingschat.chat
+kingsplace.shop
