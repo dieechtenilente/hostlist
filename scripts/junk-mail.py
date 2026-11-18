@@ -382,7 +382,8 @@ def main():
         if not is_whitelisted(domain, whitelist)
     }
 
-    # Append to spam file
+    # Append to both output files.
+    append_new_domains(ALL_DOMAINS_FILE, discovered)
     append_new_domains(SPAM_FILE, discovered)
 
     # Clean again after adding domains.
