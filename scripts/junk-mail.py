@@ -1,3 +1,4 @@
+
 import email
 import imaplib
 import re
@@ -12,23 +13,16 @@ import credentials
 # ============================================================
 
 WHITELIST_FILE = "whitelist.txt"
-
 ALL_DOMAINS_FILE = "../all-domains.txt"
 SPAM_FILE = "../spam.txt"
 
-# TXT files that should periodically have the whitelist removed.
-# Comments, blank lines and original ordering are preserved.
-TXT_FILES = [ ALL_DOMAINS_FILE,
-             SPAM_FILE,
-             "../ads.txt",
-             "../domain-squatting.txt",
-             "../internet-scraper-scanner.txt",
-             "../malware.txt",
-             "../shady.txt",
-             "../tld.txt",
-             "../tracking.txt",
-             "../verbraucherschutz.txt",
-             "../windows-telemetry.txt"]
+TXT_FILES = [
+    ALL_DOMAINS_FILE, SPAM_FILE, "../ads.txt",
+    "../domain-squatting.txt", "../internet-scraper-scanner.txt",
+    "../malware.txt", "../shady.txt", "../tld.txt",
+    "../tracking.txt", "../verbraucherschutz.txt",
+    "../windows-telemetry.txt"
+]
 
 
 # ============================================================
@@ -36,74 +30,30 @@ TXT_FILES = [ ALL_DOMAINS_FILE,
 # ============================================================
 
 def normalize_domain(domain):
-    """
-    Normalize a domain.
-
-    Does NOT remove subdomains.
-
-    Examples:
-        WWW.Google.COM     -> google.com
-        google.com.       -> google.com
-        imap.google.com   -> imap.google.com
-    """
-
     if not domain:
-        return None
-
-    # Check if domain contains at least one dot before adding
-    if "." not in domain:
         return None
 
     domain = domain.strip().lower()
 
-    # Remove trailing DNS dot.
-    domain = domain.rstrip(".")
+    if "." not in domain:
+        return None
 
-    # Remove URL scheme if present.
-    domain = re.sub(
-        r"^https?://",
-        "",
-        domain,
-        flags=re.IGNORECASE,
-    )
+    domain = re.sub(r"^https?://", "", domain, flags=re.I)
+    domain = domain.rstrip(".").split(":", 1)[0]
 
-    # Remove port if present.
-    domain = domain.split(":", 1)[0]
-
-    return domain if domain else None
+    return domain or None
 
 
 def refactor_domains(domains):
-    """
-    Refactor ONLY www.* domains.
+    return {
+        re.sub(r"^www\.", "", d, flags=re.I)
+        for domain in domains
+        if (d := normalize_domain(domain))
+    }
 
-    Examples:
-        www.google.com       -> google.com
-        WWW.Google.COM       -> google.com
-        google.com           -> google.com
-        mail.google.com      -> mail.google.com
-        www.mail.google.com  -> mail.google.com
-    """
 
-    result = set()
-
-    for domain in domains:
-        domain = normalize_domain(domain)
-
-        if not domain:
-            continue
-
-        # Remove ONLY the www. prefix.
-        domain = re.sub(
-            r"^www\.",
-            "",
-            domain,
-            flags=re.IGNORECASE,
-        )
-
-        result.add(domain)
-
-    return result
+def remove_www(domain):
+    return re.sub(r"^www\.", "", domain, flags=re.I)
 
 
 # ============================================================
@@ -111,97 +61,27 @@ def refactor_domains(domains):
 # ============================================================
 
 def read_whitelist(filename):
-    """
-    Read whitelist domains.
-
-    Comments and blank lines are ignored.
-
-    Whitelist matching is exact.
-
-    For example, if google.com is whitelisted:
-
-        google.com       -> whitelisted
-        www.google.com   -> whitelisted
-
-    But:
-
-        imap.google.com  -> NOT whitelisted
-        mail.google.com  -> NOT whitelisted
-    """
-
     domains = set()
 
     try:
-        with open(
-            filename,
-            "r",
-            encoding="utf-8",
-        ) as f:
-
+        with open(filename, encoding="utf-8") as f:
             for line in f:
-                stripped = line.strip()
+                line = line.strip()
 
-                if not stripped:
-                    continue
-
-                if stripped.startswith("#"):
-                    continue
-
-                domain = normalize_domain(
-                    stripped
-                )
-
-                if not domain:
-                    continue
-
-                # www.google.com == google.com
-                domain = re.sub(
-                    r"^www\.",
-                    "",
-                    domain,
-                    flags=re.IGNORECASE,
-                )
-
-                domains.add(domain)
+                if line and not line.startswith("#"):
+                    domain = normalize_domain(line)
+                    if domain:
+                        domains.add(remove_www(domain))
 
     except FileNotFoundError:
-        print(
-            f"Whitelist file not found: "
-            f"{filename}"
-        )
+        print(f"Whitelist file not found: {filename}")
 
     return domains
 
 
 def is_whitelisted(domain, whitelist):
-    """
-    Check for an EXACT whitelist match.
-
-    IMPORTANT:
-
-        google.com in whitelist:
-
-            google.com              -> REMOVE
-            www.google.com          -> REMOVE
-            imap.google.com         -> KEEP
-            alt2-mtalk.google.com   -> KEEP
-            mail.google.com         -> KEEP
-    """
-
     domain = normalize_domain(domain)
-
-    if not domain:
-        return False
-
-    # Only www. is considered equivalent.
-    domain = re.sub(
-        r"^www\.",
-        "",
-        domain,
-        flags=re.IGNORECASE,
-    )
-
-    return domain in whitelist
+    return bool(domain and remove_www(domain) in whitelist)
 
 
 # ============================================================
@@ -209,461 +89,180 @@ def is_whitelisted(domain, whitelist):
 # ============================================================
 
 def clean_txt_file(filename, whitelist):
-    """
-    Clean an existing TXT file.
-
-    Preserves:
-        - comments
-        - blank lines
-        - original line order
-
-    Removes:
-        - exact whitelisted domains
-        - duplicate domains
-        - subdomains when their parent domain exists
-
-    Refactors:
-        - www.example.com -> example.com
-
-    IMPORTANT:
-
-    A whitelist entry does NOT remove its subdomains.
-
-    If google.com is whitelisted:
-
-        google.com             -> REMOVE
-        www.google.com         -> REMOVE
-        imap.google.com        -> KEEP
-        alt2-mtalk.google.com  -> KEEP
-
-    If google.com is actually present in the file:
-
-        google.com             -> KEEP
-        imap.google.com        -> REMOVE
-        alt2-mtalk.google.com  -> REMOVE
-    """
-
     try:
-        with open(
-            filename,
-            "r",
-            encoding="utf-8",
-        ) as f:
+        with open(filename, encoding="utf-8") as f:
             lines = f.readlines()
-
     except FileNotFoundError:
-        print(
-            f"File not found: {filename}"
-        )
+        print(f"File not found: {filename}")
         return
 
-    # --------------------------------------------------------
-    # First pass.
-    #
-    # Normalize domains and remove exact whitelist matches.
-    #
-    # This is important because whitelist domains must NOT
-    # participate in the parent/subdomain cleanup.
-    # --------------------------------------------------------
-
-    domain_entries = []
+    # Collect valid domains after exact whitelist filtering.
+    entries = []
 
     for index, line in enumerate(lines):
         stripped = line.strip()
 
-        # Comments and blank lines are not domains.
-        if (
-            not stripped
-            or stripped.startswith("#")
-        ):
+        if not stripped or stripped.startswith("#"):
             continue
 
-        domain = normalize_domain(
-            stripped
-        )
+        domain = normalize_domain(stripped)
 
-        if not domain:
-            continue
+        if domain:
+            domain = remove_www(domain)
 
-        # www.example.com -> example.com
-        domain = re.sub(
-            r"^www\.",
-            "",
-            domain,
-            flags=re.IGNORECASE,
-        )
+            if not is_whitelisted(domain, whitelist):
+                entries.append((index, domain))
 
-        # Exact whitelist match only.
-        if is_whitelisted(
-            domain,
-            whitelist,
-        ):
-            continue
+    all_domains = {domain for _, domain in entries}
 
-        domain_entries.append(
-            (index, domain)
-        )
-
-    # --------------------------------------------------------
-    # Domains that actually remain after whitelist filtering.
-    #
-    # Only these domains are allowed to remove subdomains.
-    # --------------------------------------------------------
-
-    all_domains = {
-        domain
-        for _, domain in domain_entries
-    }
-
-    # --------------------------------------------------------
-    # Find subdomains whose parent actually exists.
-    #
-    # Example:
-    #
-    # google.com
-    # imap.google.com
-    #
-    # -> google.com survives
-    # -> imap.google.com is removed
-    #
-    # If google.com is ONLY in the whitelist, it is not in
-    # all_domains, so imap.google.com remains.
-    # --------------------------------------------------------
-
-    removed_subdomains = set()
+    # Remove subdomains only if their parent exists in the file.
+    removed = set()
 
     for domain in all_domains:
-
         parts = domain.split(".")
 
-        for i in range(
-            1,
-            len(parts) - 1,
-        ):
-            parent = ".".join(
-                parts[i:]
-            )
-
-            if parent in all_domains:
-                removed_subdomains.add(
-                    domain
-                )
+        for i in range(1, len(parts) - 1):
+            if ".".join(parts[i:]) in all_domains:
+                removed.add(domain)
                 break
 
-    # --------------------------------------------------------
-    # Rebuild the file.
-    #
-    # Existing comments, blank lines and ordering are preserved.
-    # --------------------------------------------------------
-
+    # Preserve comments, blank lines and original ordering.
     output = []
-    seen_domains = set()
+    seen = set()
 
     for line in lines:
         stripped = line.strip()
 
-        # Preserve blank lines exactly.
-        if not stripped:
+        if not stripped or stripped.startswith("#"):
             output.append(line)
             continue
 
-        # Preserve comments exactly.
-        if stripped.startswith("#"):
-            output.append(line)
-            continue
+        domain = normalize_domain(stripped)
 
-        domain = normalize_domain(
-            stripped
-        )
-
-        # Preserve non-domain lines.
         if not domain:
             output.append(line)
             continue
 
-        # www.example.com -> example.com
-        domain = re.sub(
-            r"^www\.",
-            "",
-            domain,
-            flags=re.IGNORECASE,
-        )
+        domain = remove_www(domain)
 
-        # Exact whitelist match.
-        if is_whitelisted(
-            domain,
-            whitelist,
+        if (
+            is_whitelisted(domain, whitelist)
+            or domain in removed
+            or domain in seen
         ):
             continue
 
-        # Remove subdomain if its parent exists in the file.
-        if domain in removed_subdomains:
-            continue
+        seen.add(domain)
+        output.append(domain + ("\n" if line.endswith("\n") else ""))
 
-        # Remove duplicates while keeping the first occurrence.
-        if domain in seen_domains:
-            continue
-
-        seen_domains.add(domain)
-
-        # Preserve newline behavior.
-        newline = (
-            "\n"
-            if line.endswith("\n")
-            else ""
-        )
-
-        output.append(
-            domain + newline
-        )
-
-    with open(
-        filename,
-        "w",
-        encoding="utf-8",
-    ) as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.writelines(output)
 
-    print(
-        f"Cleaned {filename}: "
-        f"{len(seen_domains)} domains"
-    )
+    print(f"Cleaned {filename}: {len(seen)} domains")
 
 
-def clean_all_txt_files(
-    txt_files,
-    whitelist,
-):
-    """
-    Clean all configured TXT files.
-    """
-
+def clean_all_txt_files(txt_files, whitelist):
     for filename in txt_files:
-        clean_txt_file(
-            filename,
-            whitelist,
-        )
+        clean_txt_file(filename, whitelist)
 
 
 # ============================================================
 # IMAP processing
 # ============================================================
 
-def extract_sender_domain(
-    msg,
-    domains,
-):
-    """
-    Extract the sender's domain.
-    """
+def extract_sender_domain(msg, domains):
+    _, sender = parseaddr(msg.get("From", ""))
 
-    _, sender_email = parseaddr(
-        msg.get("From", "")
-    )
+    if sender and "@" in sender:
+        domain = normalize_domain(sender.rsplit("@", 1)[1])
 
-    if (
-        not sender_email
-        or "@" not in sender_email
-    ):
-        return
-
-    sender_domain = sender_email.rsplit(
-        "@",
-        1,
-    )[1]
-
-    sender_domain = normalize_domain(
-        sender_domain
-    )
-
-    if sender_domain:
-        domains.add(
-            sender_domain
-        )
+        if domain:
+            domains.add(domain)
 
 
-def extract_html_domains(
-    msg,
-    domains,
-):
-    """
-    Extract domains from HTML href links.
-    """
-
+def extract_html_domains(msg, domains):
     for part in msg.walk():
-
         if part.get_content_type() != "text/html":
             continue
 
-        payload = part.get_payload(
-            decode=True
-        )
+        payload = part.get_payload(decode=True)
 
         if not payload:
             continue
 
-        charset = (
-            part.get_content_charset()
-            or "utf-8"
-        )
-
         try:
             body = payload.decode(
-                charset,
-                errors="ignore",
+                part.get_content_charset() or "utf-8",
+                errors="ignore"
             )
-
         except Exception:
             continue
 
-        matches = re.findall(
-            r'<a\s+(?:[^>]*?\s+)?'
-            r'href=["\']'
-            r'<a\b[^>]*?\bhref\s*=\s*["\']([^"\']+)["\']'
-            r'|<img\b[^>]*?\bsrc\s*=\s*["\']([^"\']+)["\']'
-            r'(?!mailto:)'
-            r'([^"\']*)'
-            r'["\']',
+        # Extract href and src attributes.
+        links = re.findall(
+            r'<(?:a\b[^>]*?\bhref|img\b[^>]*?\bsrc)\s*=\s*["\']([^"\']+)["\']',
             body,
-            flags=re.IGNORECASE,
+            flags=re.I
         )
 
-        for link in matches:
-
+        for link in links:
             try:
-                parsed = urlparse(link)
-
-                if not parsed.hostname:
-                    continue
-
-                domain = normalize_domain(
-                    parsed.hostname
-                )
+                domain = normalize_domain(urlparse(link).hostname)
 
                 if domain:
-                    domains.add(
-                        domain
-                    )
-
+                    domains.add(domain)
             except Exception:
                 continue
 
 
 def process_account(account):
-    """
-    Process the configured spam folder for one account.
-    """
-
-    username = account.get(
-        "username"
-    )
-
-    password = account.get(
-        "password"
-    )
-
-    imap_server = account.get(
-        "server"
-    )
-
-    spam_folder = account.get(
-        "spam"
-    )
-
     domains = set()
     imap = None
 
+    username = account.get("username")
+    password = account.get("password")
+
     try:
-        imap = imaplib.IMAP4_SSL(
-            imap_server
-        )
+        imap = imaplib.IMAP4_SSL(account.get("server"))
 
-        print(
-            #f"Logging in: {username}"
-            f"Logging in"
-        )
+        print("Logging in")
+        imap.login(username, password)
 
-        imap.login(
-            username,
-            password,
-        )
-
-        status, messages = imap.select(
-            spam_folder
-        )
+        status, messages = imap.select(account.get("spam"))
 
         if status != "OK":
-            print(
-                f"Could not select folder "
-                f"'{spam_folder}'"
-            )
+            print(f"Could not select folder '{account.get('spam')}'")
             return domains
 
-        message_count = int(messages[0])
+        count = int(messages[0])
+        print(f"{count} messages")
 
-        print(f"{message_count} messages")
-
-        for i in range(
-            1,
-            message_count + 1,
-        ):
-
+        for i in range(1, count + 1):
             try:
-                res, msg_data = imap.fetch(
-                    str(i),
-                    "(RFC822)",
-                )
+                status, msg_data = imap.fetch(str(i), "(RFC822)")
 
-                if res != "OK":
+                if status != "OK":
                     continue
 
                 for response in msg_data:
-
-                    if not isinstance(
-                        response,
-                        tuple,
-                    ):
+                    if not isinstance(response, tuple):
                         continue
 
                     try:
-                        msg = (
-                            email.message_from_bytes(
-                                response[1]
-                            )
-                        )
-
-                        # Sender domain.
-                        extract_sender_domain(
-                            msg,
-                            domains,
-                        )
-
-                        # HTML link domains.
-                        extract_html_domains(
-                            msg,
-                            domains,
-                        )
+                        msg = email.message_from_bytes(response[1])
+                        extract_sender_domain(msg, domains)
+                        extract_html_domains(msg, domains)
 
                     except Exception as e:
-                        print(
-                            f"Error processing "
-                            f"email {i}: {e}"
-                        )
+                        print(f"Error processing email {i}: {e}")
 
             except Exception as e:
-                print(
-                    f"Error fetching "
-                    f"email {i}: {e}"
-                )
+                print(f"Error fetching email {i}: {e}")
 
     except Exception as e:
-        print(
-            f"Login failed for "
-            f"{username}: {e}"
-        )
+        print(f"Login failed for {username}: {e}")
 
     finally:
-
         if imap is not None:
             try:
                 imap.logout()
@@ -677,130 +276,48 @@ def process_account(account):
 # Append new domains
 # ============================================================
 
-def append_new_domains(
-    filename,
-    new_domains,
-):
-    """
-    Append new domains to a TXT file.
-
-    Existing:
-        - comments
-        - blank lines
-        - ordering
-
-    are preserved.
-
-    New domains are appended without sorting.
-    """
-
+def append_new_domains(filename, new_domains):
     try:
-        with open(
-            filename,
-            "r",
-            encoding="utf-8",
-        ) as f:
+        with open(filename, encoding="utf-8") as f:
             lines = f.readlines()
-
     except FileNotFoundError:
         lines = []
 
-    # --------------------------------------------------------
-    # Read existing domains.
-    # --------------------------------------------------------
-
-    existing_domains = set()
+    existing = set()
 
     for line in lines:
         stripped = line.strip()
 
-        if (
-            not stripped
-            or stripped.startswith("#")
-        ):
-            continue
+        if stripped and not stripped.startswith("#"):
+            domain = normalize_domain(stripped)
 
-        domain = normalize_domain(
-            stripped
-        )
+            if domain:
+                existing.add(remove_www(domain))
 
-        if not domain:
-            continue
-
-        domain = re.sub(
-            r"^www\.",
-            "",
-            domain,
-            flags=re.IGNORECASE,
-        )
-
-        existing_domains.add(
-            domain
-        )
-
-    # --------------------------------------------------------
-    # Determine which domains are new.
-    # --------------------------------------------------------
-
-    domains_to_add = []
+    # Preserve discovery order without sorting.
+    additions = []
 
     for domain in new_domains:
+        domain = normalize_domain(domain)
 
-        domain = normalize_domain(
-            domain
-        )
+        if domain:
+            domain = remove_www(domain)
 
-        if not domain:
-            continue
+            if domain not in existing:
+                existing.add(domain)
+                additions.append(domain)
 
-        # www.example.com -> example.com
-        domain = re.sub(
-            r"^www\.",
-            "",
-            domain,
-            flags=re.IGNORECASE,
-        )
-
-        if domain in existing_domains:
-            continue
-
-        existing_domains.add(
-            domain
-        )
-
-        domains_to_add.append(
-            domain
-        )
-
-    if not domains_to_add:
+    if not additions:
         return
 
-    # --------------------------------------------------------
-    # Append without sorting.
-    # --------------------------------------------------------
-
-    with open(
-        filename,
-        "a",
-        encoding="utf-8",
-    ) as f:
-
-        # Make sure the first new domain starts on a new line.
-        if (
-            lines
-            and not lines[-1].endswith("\n")
-        ):
+    with open(filename, "a", encoding="utf-8") as f:
+        if lines and not lines[-1].endswith("\n"):
             f.write("\n")
 
-        for domain in domains_to_add:
-            f.write(
-                f"{domain}\n"
-            )
+        for domain in additions:
+            f.write(domain + "\n")
 
-    print(
-        f"Added {len(domains_to_add)} "
-        f"domains to {filename}"
-    )
+    print(f"Added {len(additions)} domains to {filename}")
 
 
 # ============================================================
@@ -808,145 +325,35 @@ def append_new_domains(
 # ============================================================
 
 def main():
+    whitelist = read_whitelist(WHITELIST_FILE)
+    print(f"Loaded {len(whitelist)} whitelisted domains")
 
-    # --------------------------------------------------------
-    # Read whitelist.
-    # --------------------------------------------------------
+    # Clean existing files before processing.
+    clean_all_txt_files(TXT_FILES, whitelist)
 
-    whitelist = read_whitelist(
-        WHITELIST_FILE
-    )
-
-    print(
-        f"Loaded {len(whitelist)} "
-        f"whitelisted domains"
-    )
-
-    # --------------------------------------------------------
-    # Clean existing TXT files BEFORE processing.
-    #
-    # This removes:
-    #   - exact whitelist entries
-    #   - duplicates
-    #   - redundant subdomains
-    #   - www. prefixes
-    #
-    # It preserves:
-    #   - comments
-    #   - blank lines
-    #   - ordering
-    # --------------------------------------------------------
-
-    clean_all_txt_files(
-        TXT_FILES,
-        whitelist,
-    )
-
-    # --------------------------------------------------------
-    # Process IMAP accounts.
-    # --------------------------------------------------------
-
-    discovered_domains = set()
+    # Collect domains from all IMAP accounts.
+    discovered = set()
 
     for account in credentials.accounts:
+        discovered.update(process_account(account))
 
-        domains = process_account(
-            account
-        )
+    print(f"\nDiscovered {len(discovered)} domains from email")
 
-        discovered_domains.update(
-            domains
-        )
-
-    print(
-        f"\nDiscovered "
-        f"{len(discovered_domains)} "
-        f"domains from email"
-    )
-
-    # --------------------------------------------------------
-    # Refactor ONLY www.*.
-    # --------------------------------------------------------
-
-    discovered_domains = refactor_domains(
-        discovered_domains
-    )
-
-    # --------------------------------------------------------
-    # Remove exact whitelist matches.
-    #
-    # IMPORTANT:
-    #
-    # google.com on whitelist:
-    #
-    #   google.com             -> REMOVE
-    #   www.google.com         -> REMOVE
-    #   imap.google.com        -> KEEP
-    #   alt2-mtalk.google.com  -> KEEP
-    #
-    # --------------------------------------------------------
-
-    discovered_domains = {
-        domain
-        for domain in discovered_domains
-        if not is_whitelisted(
-            domain,
-            whitelist,
-        )
+    # Normalize www.* and remove exact whitelist matches.
+    discovered = {
+        domain for domain in refactor_domains(discovered)
+        if not is_whitelisted(domain, whitelist)
     }
 
-    # --------------------------------------------------------
-    # Add new domains to BOTH output files.
-    # --------------------------------------------------------
+    # Append to both output files.
+    append_new_domains(ALL_DOMAINS_FILE, discovered)
+    append_new_domains(SPAM_FILE, discovered)
 
-    append_new_domains(
-        ALL_DOMAINS_FILE,
-        discovered_domains,
-    )
+    # Clean again to remove duplicates and redundant subdomains.
+    clean_all_txt_files(TXT_FILES, whitelist)
 
-    append_new_domains(
-        SPAM_FILE,
-        discovered_domains,
-    )
-
-    # --------------------------------------------------------
-    # Clean again AFTER adding domains.
-    #
-    # This handles cases such as:
-    #
-    # Existing:
-    #     imap.google.com
-    #
-    # Newly discovered:
-    #     google.com
-    #
-    # Final:
-    #     google.com
-    #
-    # BUT:
-    #
-    # If google.com is whitelisted:
-    #
-    #     google.com             -> removed
-    #     imap.google.com        -> KEPT
-    #
-    # --------------------------------------------------------
-
-    clean_all_txt_files(
-        TXT_FILES,
-        whitelist,
-    )
-
-    # --------------------------------------------------------
-    # Print newly discovered domains.
-    # --------------------------------------------------------
-
-    for domain in sorted(
-        discovered_domains
-    ):
-        print(
-            f"Adding {domain}"
-        )
+    for domain in sorted(discovered):
+        print(f"Adding {domain}")
 
 
 if __name__ == "__main__":
