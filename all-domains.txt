@@ -3012,6 +3012,14 @@ clarpix.com
 techgenuiess.com
 articles.orbio.world
 boxmail.dsno.pro
+sp-track.firejackpotspromos.com
+img.mailinblue.com
+maildeliveryhub.lat
+track.de
+boxmail.epmes.art
+mailmarketingzone.lat
+boxmail.aidadejas.life
+imagecdn.sendpost.io
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co
