@@ -3036,6 +3036,8 @@ boxmail.sacrocuor.life
 ni03hfph.com
 cdn.freebiesupply.com
 click.autodesk.com
+sew.morengersy.com
+kaufe.wuzutech.eu
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co
