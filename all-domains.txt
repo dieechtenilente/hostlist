@@ -3040,6 +3040,7 @@ cdn.freebiesupply.com
 click.autodesk.com
 sew.morengersy.com
 kaufe.wuzutech.eu
+bluelumeglasses.com
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co
