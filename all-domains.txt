@@ -3043,6 +3043,14 @@ kaufe.wuzutech.eu
 bluelumeglasses.com
 boxmail.optimisti.life
 reply.optimisti.life
+5pdcgvx6oh3pnrm2zgmzuws2b40eveda.lambda-url.us-east-2.on.aws
+boxmail.lunvexa.life
+click.em.shutterfly.com
+shutterfly.widen.net
+cdn.staticsfly.com
+monzaro.life
+tierarztadressen.eu
+adfarm.mediaplex.com
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co
