@@ -63,3 +63,4 @@ ups.de
 i.ibb.co
 doctolib.de
 thumb.wikimedia.org
+rossmann.de
