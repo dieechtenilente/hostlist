@@ -56,3 +56,14 @@ fritz.box
 kingschat.io
 kingschat.chat
 kingsplace.shop
+
+# Top talkers on local networks
+mobile.events.data.microsoft.com
+push.services.mozilla.com
+sync-v2.brave.com
+mozilla.map.fastly.net
+ecs.office.com
+spot-pa.googleapis.com
+firetvcaptiveportal.com
+static.ui.com
+crash-report-service.svc.ui.com
