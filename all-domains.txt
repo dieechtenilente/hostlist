@@ -3078,7 +3078,6 @@ yakkamon.com
 translatorenence.com
 iitgc.com
 mahmoudyousefsteamw7cd45.myclickfunnels.com
-rossmann.de
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co
