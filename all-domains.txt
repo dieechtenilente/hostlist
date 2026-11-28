@@ -565,6 +565,32 @@ us.lgrecommends.lgappstv.com
 # LG TV Telemetry
 fr.security.lgtvsdp.com
 pt.elastic.lgwebostv.com
+# GitHub Typo
+ghrc.io
+# Scam and Typosquatting
+audacity.de
+playstation-sony.eu
+playstation-sony.com
+playstation-sony.ru
+playstation5-sony.ru
+promo-citilink.com
+ps5-game.ru
+ps5-sony.ru
+psn-playstation.ru
+sony-center.org
+store-playstation.eu
+store-playstation.ru
+crazygameis.com
+bitwariden.com
+keepass.de
+# Microsoft Teams Scams
+msftprotection.onmicrosoft.com
+identityverification.onmicrosoft.com
+accountsverification.onmicrosoft.com
+azuresecuritycenter.onmicrosoft.com
+teamsprotection.onmicrosoft.com
+# Strato idn-homograph
+ѕtrаtо.dе
 # Malware
 fitgirlrepack.co
 fitgirl-repacks.cc
@@ -763,6 +789,129 @@ zorapslwsnic.com
 zrawsomble.com
 # Fake Shop
 heimatreiz.com
+# Probabaly never used Google Domains
+google.ae
+google.as
+google.cd
+google.cg
+google.cl
+google.co.in
+google.co.kr
+google.co.ls
+google.co.mz
+google.co.ug
+google.co.zw
+google.com.br
+google.com.co
+google.com.kh
+google.com.my
+google.com.pg
+google.com.pk
+google.com.sg
+google.cz
+google.dz
+google.es
+google.ge
+google.gr
+google.gy
+google.im
+google.nr
+google.sm
+google.tl
+google.vu
+# Adobe Licensing
+licensing.adobe.com
+# Opera Speed dial and stuff
+speeddials.opera.com
+weather.opera-api.com
+sitecheck.opera.com
+# Link shortener
+adf.ly
+bom.so
+urltiny.ru
+pke.to
+shoort.ink
+cli.co
+zipurl.link
+urlz.fr
+rb.gy
+# Local Domains that should not be resolved over the Internet
+speedport.ip
+fritz.box
+#Shady messenger
+kingschat.io
+kingschat.chat
+kingsplace.shop
+# Top talkers on local networks
+mobile.events.data.microsoft.com
+push.services.mozilla.com
+sync-v2.brave.com
+mozilla.map.fastly.net
+ecs.office.com
+spot-pa.googleapis.com
+firetvcaptiveportal.com
+static.ui.com
+crash-report-service.svc.ui.com
+censys-scanner.com
+internet-census.org
+deepfield.net
+shadowserver.org
+stretchoid.com
+internet-measurement.com
+# Ad provider
+ads2.web1tv.de
+# More ads
+revenuecat.com
+doubleclick.net
+# Ads on sueddeutsche.de
+cdn.m-pathy.com
+plista.com
+data-86d2aee9fa.sueddeutsche.de
+data-ac3d45df06.sueddeutsche.de
+fsm.sueddeutsche.de
+iqmetrics.sueddeutsche.de
+service-ens.sueddeutsche.de
+# Mindfactory Ads
+ads.mindfactory.de
+# Snapchat Ads and Analytics
+app-analytics-v2.snapchat.com
+ads-interface.sc-cdn.net
+# Windows 10 Telemetry
+geo.settings-win.data.microsoft.com.akadns.net
+db5-eap.settings-win.data.microsoft.com.akadns.net
+settings-win.data.microsoft.com
+db5.settings-win.data.microsoft.com.akadns.net
+asimov-win.settings.data.microsoft.com.akadns.net
+db5.vortex.data.microsoft.com.akadns.net
+v10-win.vortex.data.microsoft.com.akadns.net
+geo.vortex.data.microsoft.com.akadns.net
+vortex-win-sandbox.data.microsoft.com
+alpha.telemetry.microsoft.com
+oca.telemetry.microsoft.com
+ceuswatcab01.blob.core.windows.net
+ceuswatcab02.blob.core.windows.net
+eaus2watcab01.blob.core.windows.net
+eaus2watcab02.blob.core.windows.net
+weus2watcab01.blob.core.windows.net
+weus2watcab02.blob.core.windows.net
+events-sandbox.data.microsoft.com
+telecommand.telemetry.microsoft.com
+vortex-win.data.microsoft.com
+cy2.vortex.data.microsoft.com.akadns.net
+events.data.microsoft.com
+modern.watson.data.microsoft.com.akadns.net
+watson.telemetry.microsoft.com
+hubblecontent.osi.office.net
+vortex.data.microsoft.com
+v10-win.vortex.data.microsft.com.akadns.net
+v10.vortex-win.data.microsft.com
+us.vortex-win.data.microsft.com
+eu.vortex-win.data.microsft.com
+alpha.telemetry.microsft.com
+oca.telemetry.microsft.com
+# Office telemetry
+# https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
+nexus.officeapps.live.com
 # Domains used in spam mail or sms
 spk-kontoeinzug-de.com
 sparka-kundeninstituten-de.com
@@ -984,7 +1133,6 @@ superkoran.info
 aadvanstar.co.uk
 advanstar.co.uk
 theowensfamily.info
-shoort.ink
 hwsrv-1046285.hostwindsdns.com
 d15k2d11r6t6rl.cloudfront.net
 pet-ck-500.iumfragen.com
@@ -2930,128 +3078,6 @@ yakkamon.com
 translatorenence.com
 iitgc.com
 mahmoudyousefsteamw7cd45.myclickfunnels.com
-censys-scanner.com
-internet-census.org
-deepfield.net
-shadowserver.org
-stretchoid.com
-internet-measurement.com
-# Ad provider
-ads2.web1tv.de
-# More ads
-revenuecat.com
-doubleclick.net
-# Ads on sueddeutsche.de
-cdn.m-pathy.com
-plista.com
-data-86d2aee9fa.sueddeutsche.de
-data-ac3d45df06.sueddeutsche.de
-fsm.sueddeutsche.de
-iqmetrics.sueddeutsche.de
-service-ens.sueddeutsche.de
-# Mindfactory Ads
-ads.mindfactory.de
-# Snapchat Ads and Analytics
-app-analytics-v2.snapchat.com
-ads-interface.sc-cdn.net
-# Probabaly never used Google Domains
-google.ae
-google.as
-google.cd
-google.cg
-google.cl
-google.co.in
-google.co.kr
-google.co.ls
-google.co.mz
-google.co.ug
-google.co.zw
-google.com.br
-google.com.co
-google.com.kh
-google.com.my
-google.com.pg
-google.com.pk
-google.com.sg
-google.cz
-google.dz
-google.es
-google.ge
-google.gr
-google.gy
-google.im
-google.nr
-google.sm
-google.tl
-google.vu
-# Adobe Licensing
-licensing.adobe.com
-# Opera Speed dial and stuff
-speeddials.opera.com
-weather.opera-api.com
-sitecheck.opera.com
-# Link shortener
-adf.ly
-bom.so
-urltiny.ru
-pke.to
-cli.co
-zipurl.link
-urlz.fr
-rb.gy
-# Local Domains that should not be resolved over the Internet
-speedport.ip
-fritz.box
-#Shady messenger
-kingschat.io
-kingschat.chat
-kingsplace.shop
-# Top talkers on local networks
-mobile.events.data.microsoft.com
-push.services.mozilla.com
-sync-v2.brave.com
-mozilla.map.fastly.net
-ecs.office.com
-spot-pa.googleapis.com
-firetvcaptiveportal.com
-static.ui.com
-crash-report-service.svc.ui.com
-# Windows 10 Telemetry
-geo.settings-win.data.microsoft.com.akadns.net
-db5-eap.settings-win.data.microsoft.com.akadns.net
-settings-win.data.microsoft.com
-db5.settings-win.data.microsoft.com.akadns.net
-asimov-win.settings.data.microsoft.com.akadns.net
-db5.vortex.data.microsoft.com.akadns.net
-v10-win.vortex.data.microsoft.com.akadns.net
-geo.vortex.data.microsoft.com.akadns.net
-vortex-win-sandbox.data.microsoft.com
-alpha.telemetry.microsoft.com
-oca.telemetry.microsoft.com
-ceuswatcab01.blob.core.windows.net
-ceuswatcab02.blob.core.windows.net
-eaus2watcab01.blob.core.windows.net
-eaus2watcab02.blob.core.windows.net
-weus2watcab01.blob.core.windows.net
-weus2watcab02.blob.core.windows.net
-events-sandbox.data.microsoft.com
-telecommand.telemetry.microsoft.com
-vortex-win.data.microsoft.com
-cy2.vortex.data.microsoft.com.akadns.net
-events.data.microsoft.com
-modern.watson.data.microsoft.com.akadns.net
-watson.telemetry.microsoft.com
-hubblecontent.osi.office.net
-vortex.data.microsoft.com
-v10-win.vortex.data.microsft.com.akadns.net
-v10.vortex-win.data.microsft.com
-us.vortex-win.data.microsft.com
-eu.vortex-win.data.microsft.com
-alpha.telemetry.microsft.com
-oca.telemetry.microsft.com
-# Office telemetry
-# https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
-nexus.officeapps.live.com
 # This list contains shady top level domains (TLDs)
 # You can use this list in AdGuard Home
 ||.co
@@ -3064,32 +3090,6 @@ nexus.officeapps.live.com
 ||.ninja
 # Onion Addresses resolved over classic DNS providers
 ||.onion
-# GitHub Typo
-ghrc.io
-# Scam and Typosquatting
-audacity.de
-playstation-sony.eu
-playstation-sony.com
-playstation-sony.ru
-playstation5-sony.ru
-promo-citilink.com
-ps5-game.ru
-ps5-sony.ru
-psn-playstation.ru
-sony-center.org
-store-playstation.eu
-store-playstation.ru
-crazygameis.com
-bitwariden.com
-keepass.de
-# Microsoft Teams Scams
-msftprotection.onmicrosoft.com
-identityverification.onmicrosoft.com
-accountsverification.onmicrosoft.com
-azuresecuritycenter.onmicrosoft.com
-teamsprotection.onmicrosoft.com
-# Strato idn-homograph
-ѕtrаtо.dе
 # Domains flagged as scam shops by German Verbraucherschutz
 # https://www.verbraucherschutz.com/warnungsticker/warnung-vor-onlineshops-hier-duerfen-sie-nicht-einkaufen/
 # https://verbraucherschutz.de/diese-portale-sind-keine-offiziellen-behoerden/
